@@ -1,0 +1,31 @@
+# Secrets and local data
+.env
+var/
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+
+# Knowledge downloads (re-fetched by knowledge loaders; manifests are committed)
+knowledge/sources/raw/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+knowledge/sources/build/

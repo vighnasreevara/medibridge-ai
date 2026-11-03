@@ -1,0 +1,77 @@
+[project]
+name = "medibridge-ai"
+version = "0.1.0"
+description = "MediBridge AI: local-first agentic patient intake and doctor handoff (synthetic-data research/demo, not for clinical use)"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "Proprietary - research/demo use" }
+dependencies = [
+  # API
+  "fastapi>=0.120",
+  "uvicorn[standard]>=0.35",
+  "pydantic>=2.11",
+  "pydantic-settings>=2.10",
+  "python-multipart>=0.0.20",
+  # Persistence
+  "sqlalchemy>=2.0.40",
+  "alembic>=1.16",
+  "psycopg[binary,pool]>=3.2",
+  "qdrant-client>=1.15",
+  "neo4j>=5.28",
+  # Security
+  "argon2-cffi>=25.1",
+  # HTTP to local services
+  "httpx>=0.28",
+  # Agents, tools, tracing
+  "langgraph>=1.0",
+  "langgraph-checkpoint-postgres>=2.0",
+  "langchain-core>=1.0",
+  "langsmith>=0.4",
+  "mcp>=1.20",
+  # A2A protocol (agent-to-agent). Pinned: newest release at least two weeks old at adoption.
+  "a2a-sdk[http-server]==1.2.2",
+  # Cross-encoder re-ranking for hybrid document retrieval (ONNX on CPU; no torch).
+  "fastembed==0.8.1",
+  # Speech
+  "faster-whisper>=1.2",
+  # Audio decoding is done in providers/asr.py with PyAV directly (faster-whisper 1.2.x passes an argument
+  # that PyAV 15+ removed), so faster-whisper only ever receives decoded samples.
+  "av>=15",
+  "numpy>=2.0",
+  # Documents
+  "pypdf>=6.0",
+  "reportlab>=4.4",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4",
+  "pytest-asyncio>=1.0",
+  "ruff>=0.12",
+]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = [
+  "backend/medibridge_api",
+  "agents/medibridge_agents",
+  "mcp/medibridge_mcp",
+  "knowledge/medibridge_knowledge",
+  "database/medibridge_seed",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-ra"
+markers = [
+  "live: needs running local services (Postgres/Qdrant/Neo4j/Ollama)",
+  "slow: runs a local model",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"

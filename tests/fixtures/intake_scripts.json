@@ -1,0 +1,218 @@
+{
+  "_note": "Synthetic cardiology intake conversations (fictional patients) with hand-labelled gold findings. Each script belongs to a seed scenario (var/seed-manifest.json). Rendered to audio by scripts/make_synthetic_audio.ps1; used by tests/ai_eval/ner_eval.py, asr_eval.py and acceptance_live.py.",
+  "scripts": [
+    {
+      "key": "af_warfarin_ibuprofen",
+      "scenario": "af_anticoagulant_nsaid",
+      "turns": [
+        ["clinician", "What brings you in today?"],
+        ["patient", "My heart has been racing on and off for three days, mostly in the evenings."],
+        ["patient", "I hurt my back gardening, so I have been taking ibuprofen, four hundred milligrams, three times a day."],
+        ["clinician", "Which other medicines do you take?"],
+        ["patient", "I take warfarin for my atrial fibrillation and a water tablet for my blood pressure."],
+        ["patient", "I have not had any chest pain and I have not fainted."]
+      ],
+      "orders": {"propose": [{"medication_text": "aspirin", "dose_text": "81 mg", "route": "oral", "frequency_text": "once daily"}],
+                 "expect_alert": ["warfarin", "aspirin"], "revise_to": [{"medication_text": "acetaminophen", "dose_text": "500 mg", "route": "oral", "frequency_text": "every 8 hours", "duration_text": "5 days"}]},
+      "gold": {
+        "symptoms": [
+          {"name": "palpitations heart racing", "negated": false, "duration": "three days"},
+          {"name": "back pain", "negated": false},
+          {"name": "chest pain", "negated": true},
+          {"name": "fainting", "negated": true}
+        ],
+        "medications": [
+          {"name": "ibuprofen", "certainty": "stated", "dose": "400 mg"},
+          {"name": "warfarin", "certainty": "stated"},
+          {"name": "water tablet", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "digoxin_verapamil",
+      "scenario": "digoxin_interaction",
+      "turns": [
+        ["clinician", "How have you been feeling?"],
+        ["patient", "For about a week I have felt sick to my stomach and I have gone off my food."],
+        ["patient", "The lights look yellowish, with halos around them, especially in the evening."],
+        ["clinician", "What do you take for your heart?"],
+        ["patient", "I take digoxin every morning and verapamil three times a day."],
+        ["patient", "My breathing is fine, I am not short of breath."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "nausea feeling sick", "negated": false, "duration": "about a week"},
+          {"name": "yellow vision halos", "negated": false},
+          {"name": "shortness of breath", "negated": true}
+        ],
+        "medications": [
+          {"name": "digoxin", "certainty": "stated"},
+          {"name": "verapamil", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "statin_macrolide",
+      "scenario": "statin_macrolide",
+      "turns": [
+        ["clinician", "What's the problem today?"],
+        ["patient", "My legs and shoulders ache, it started four days ago and it is getting worse."],
+        ["patient", "The urgent care gave me clarithromycin for a chest infection last week."],
+        ["clinician", "And your regular medicines?"],
+        ["patient", "I take simvastatin for my cholesterol and clopidogrel since my stent."],
+        ["patient", "My urine is a normal colour and I don't have a fever."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "muscle aches legs shoulders", "negated": false, "duration": "four days"},
+          {"name": "fever", "negated": true}
+        ],
+        "medications": [
+          {"name": "clarithromycin", "certainty": "stated"},
+          {"name": "simvastatin", "certainty": "stated"},
+          {"name": "clopidogrel", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "chest_pain_red_flags",
+      "scenario": "chest_pain_red_flag",
+      "turns": [
+        ["clinician", "Tell me what happened."],
+        ["patient", "I have a crushing pain in my chest that started forty minutes ago and it goes into my left arm."],
+        ["patient", "I am sweaty and I feel sick. I used my nitroglycerin spray twice and it did not help."],
+        ["clinician", "Any allergies?"],
+        ["patient", "No allergies that I know of."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "chest pain", "negated": false, "duration": "forty minutes"},
+          {"name": "left arm pain", "negated": false},
+          {"name": "sweating sweaty", "negated": false},
+          {"name": "nausea feel sick", "negated": false}
+        ],
+        "medications": [
+          {"name": "nitroglycerin spray", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "nitrate_viagra",
+      "scenario": "nitrate_pde5",
+      "turns": [
+        ["clinician", "What brings you in?"],
+        ["patient", "I get tightness in my chest when I walk uphill, for about two months now."],
+        ["patient", "I use my nitro spray when it happens."],
+        ["clinician", "Anything else you have taken recently?"],
+        ["patient", "I took a Viagra last night."],
+        ["patient", "I have not passed out and I am not dizzy."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "chest tightness walking uphill", "negated": false, "duration": "about two months"},
+          {"name": "passed out fainting", "negated": true},
+          {"name": "dizziness dizzy", "negated": true}
+        ],
+        "medications": [
+          {"name": "nitro spray", "certainty": "stated"},
+          {"name": "viagra", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "heart_failure_naproxen",
+      "scenario": "heart_failure_nsaid",
+      "turns": [
+        ["clinician", "How is your breathing?"],
+        ["patient", "I get out of breath when I lie flat, I need three pillows now, for about two weeks."],
+        ["patient", "My ankles are swollen and I have gained three kilos this week."],
+        ["clinician", "Have you started anything new?"],
+        ["patient", "I take Aleve for my knee, two tablets a day, and my furosemide in the morning."],
+        ["patient", "I have no chest pain."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "breathless lying flat", "negated": false, "duration": "about two weeks"},
+          {"name": "swollen ankles", "negated": false},
+          {"name": "weight gain gained kilos", "negated": false},
+          {"name": "knee pain", "negated": false},
+          {"name": "chest pain", "negated": true}
+        ],
+        "medications": [
+          {"name": "aleve", "certainty": "stated"},
+          {"name": "furosemide", "certainty": "stated"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "ace_inhibitor_allergy",
+      "scenario": "ace_inhibitor_allergy",
+      "turns": [
+        ["clinician", "What brings you in today?"],
+        ["patient", "My blood pressure at home has been high, around one hundred and sixty, for two weeks."],
+        ["patient", "I get headaches in the morning."],
+        ["clinician", "Any allergies?"],
+        ["patient", "Lisinopril made my lips swell up years ago."]
+      ],
+      "orders": {"propose": [{"medication_text": "enalapril", "dose_text": "5 mg", "route": "oral", "frequency_text": "once daily"}],
+                 "expect_alert": ["enalapril"], "revise_to": [{"medication_text": "losartan", "dose_text": "50 mg", "route": "oral", "frequency_text": "once daily"}]},
+      "gold": {
+        "symptoms": [
+          {"name": "high blood pressure readings", "negated": false, "duration": "two weeks"},
+          {"name": "headaches morning", "negated": false}
+        ],
+        "medications": [],
+        "allergies": [{"substance": "lisinopril"}]
+      }
+    },
+    {
+      "key": "water_pill_uncertain",
+      "scenario": "uncertain_medication",
+      "turns": [
+        ["clinician", "What can I help with?"],
+        ["patient", "I feel dizzy when I stand up, for about five days."],
+        ["clinician", "What medicines are you on?"],
+        ["patient", "I take a water pill, I think, but I can't remember the name."],
+        ["patient", "I have not fallen."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "dizziness standing", "negated": false, "duration": "five days"},
+          {"name": "falls fallen", "negated": true}
+        ],
+        "medications": [
+          {"name": "water pill", "certainty": "uncertain"}
+        ],
+        "allergies": []
+      }
+    },
+    {
+      "key": "new_patient_palpitations",
+      "scenario": "new_patient_registration",
+      "turns": [
+        ["clinician", "This is your first visit with us. What brings you in?"],
+        ["patient", "My heart flutters and skips beats, for about a month."],
+        ["patient", "My previous doctor started me on amlodipine five milligrams once a day for blood pressure."],
+        ["clinician", "Any chest pain or fainting?"],
+        ["patient", "No chest pain, and I have never fainted."]
+      ],
+      "gold": {
+        "symptoms": [
+          {"name": "palpitations heart flutters skips beats", "negated": false, "duration": "about a month"},
+          {"name": "chest pain", "negated": true},
+          {"name": "fainting fainted", "negated": true}
+        ],
+        "medications": [
+          {"name": "amlodipine", "certainty": "stated", "dose": "5 mg"}
+        ],
+        "allergies": []
+      }
+    }
+  ]
+}

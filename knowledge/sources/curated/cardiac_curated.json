@@ -1,0 +1,1426 @@
+{
+ "_status": "DEMO-CURATED, NOT CLINICALLY REVIEWED. Cardiology scope. Each edge restates a statement found verbatim in the cited FDA label section (openFDA SPL); the loader rejects any edge whose quote is not present in the fetched label text. Illustrative, not a comprehensive interaction database.",
+ "curated_by": "MediBridge AI build (synthetic research demo)",
+ "scope": "cardiology",
+ "interactions": [
+  {
+   "id": "ddi-warfarin-ibuprofen",
+   "drugs": [
+    "warfarin",
+    "ibuprofen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with warfarin.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Drugs that Can Increase the Risk of Bleeding"
+    },
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Non-steroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen"
+    },
+    {
+     "label_of": "ibuprofen",
+     "section": "warnings",
+     "quote": "take a blood thinning (anticoagulant) or steroid drug"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-naproxen",
+   "drugs": [
+    "warfarin",
+    "naproxen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with warfarin.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Drugs that Can Increase the Risk of Bleeding"
+    },
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "ketorolac, mefenamic acid, naproxen"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-celecoxib",
+   "drugs": [
+    "warfarin",
+    "celecoxib"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with warfarin.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Drugs that Can Increase the Risk of Bleeding"
+    },
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Non-steroidal Anti-Inflammatory Agents celecoxib, diclofenac, diflunisal, fenoprofen, ibuprofen"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-aspirin",
+   "drugs": [
+    "warfarin",
+    "aspirin"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with warfarin.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Drugs that Can Increase the Risk of Bleeding"
+    },
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-clopidogrel",
+   "drugs": [
+    "warfarin",
+    "clopidogrel"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with warfarin.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Drugs that Can Increase the Risk of Bleeding"
+    },
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-prasugrel",
+   "drugs": [
+    "warfarin",
+    "prasugrel"
+   ],
+   "severity": "major",
+   "summary": "Prasugrel with warfarin increases the risk of bleeding.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "Antiplatelet Agents aspirin, cilostazol, clopidogrel, dipyridamole, prasugrel"
+    },
+    {
+     "label_of": "prasugrel",
+     "section": "drug_interactions",
+     "quote": "Coadministration of prasugrel and warfarin increases the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-amiodarone",
+   "drugs": [
+    "warfarin",
+    "amiodarone"
+   ],
+   "severity": "major",
+   "summary": "Amiodarone inhibits CYP2C9 warfarin metabolism and can increase INR and bleeding risk.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole"
+    }
+   ]
+  },
+  {
+   "id": "ddi-warfarin-fluconazole",
+   "drugs": [
+    "warfarin",
+    "fluconazole"
+   ],
+   "severity": "major",
+   "summary": "Fluconazole inhibits CYP2C9 warfarin metabolism and can increase INR and bleeding risk.",
+   "evidence": [
+    {
+     "label_of": "warfarin",
+     "section": "drug_interactions",
+     "quote": "CYP2C9 amiodarone, capecitabine, cotrimoxazole, etravirine, fluconazole"
+    }
+   ]
+  },
+  {
+   "id": "ddi-apixaban-aspirin",
+   "drugs": [
+    "apixaban",
+    "aspirin"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with apixaban.",
+   "evidence": [
+    {
+     "label_of": "apixaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of antiplatelet agents, fibrinolytics, heparin, aspirin, and chronic NSAID use increases the risk of bleeding."
+    }
+   ]
+  },
+  {
+   "id": "ddi-apixaban-clopidogrel",
+   "drugs": [
+    "apixaban",
+    "clopidogrel"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with apixaban.",
+   "evidence": [
+    {
+     "label_of": "apixaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of antiplatelet agents, fibrinolytics, heparin, aspirin, and chronic NSAID use increases the risk of bleeding."
+    }
+   ]
+  },
+  {
+   "id": "ddi-apixaban-ibuprofen",
+   "drugs": [
+    "apixaban",
+    "ibuprofen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with apixaban.",
+   "evidence": [
+    {
+     "label_of": "apixaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of antiplatelet agents, fibrinolytics, heparin, aspirin, and chronic NSAID use increases the risk of bleeding."
+    }
+   ]
+  },
+  {
+   "id": "ddi-apixaban-naproxen",
+   "drugs": [
+    "apixaban",
+    "naproxen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with apixaban.",
+   "evidence": [
+    {
+     "label_of": "apixaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of antiplatelet agents, fibrinolytics, heparin, aspirin, and chronic NSAID use increases the risk of bleeding."
+    }
+   ]
+  },
+  {
+   "id": "ddi-apixaban-celecoxib",
+   "drugs": [
+    "apixaban",
+    "celecoxib"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with apixaban.",
+   "evidence": [
+    {
+     "label_of": "apixaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of antiplatelet agents, fibrinolytics, heparin, aspirin, and chronic NSAID use increases the risk of bleeding."
+    }
+   ]
+  },
+  {
+   "id": "ddi-rivaroxaban-aspirin",
+   "drugs": [
+    "rivaroxaban",
+    "aspirin"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with rivaroxaban.",
+   "evidence": [
+    {
+     "label_of": "rivaroxaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of enoxaparin, warfarin, aspirin, clopidogrel and chronic NSAID use may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-rivaroxaban-clopidogrel",
+   "drugs": [
+    "rivaroxaban",
+    "clopidogrel"
+   ],
+   "severity": "major",
+   "summary": "Antiplatelet agents increase the risk of bleeding with rivaroxaban.",
+   "evidence": [
+    {
+     "label_of": "rivaroxaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of enoxaparin, warfarin, aspirin, clopidogrel and chronic NSAID use may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-rivaroxaban-ibuprofen",
+   "drugs": [
+    "rivaroxaban",
+    "ibuprofen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with rivaroxaban.",
+   "evidence": [
+    {
+     "label_of": "rivaroxaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of enoxaparin, warfarin, aspirin, clopidogrel and chronic NSAID use may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-rivaroxaban-naproxen",
+   "drugs": [
+    "rivaroxaban",
+    "naproxen"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with rivaroxaban.",
+   "evidence": [
+    {
+     "label_of": "rivaroxaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of enoxaparin, warfarin, aspirin, clopidogrel and chronic NSAID use may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-rivaroxaban-celecoxib",
+   "drugs": [
+    "rivaroxaban",
+    "celecoxib"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs increase the risk of bleeding with rivaroxaban.",
+   "evidence": [
+    {
+     "label_of": "rivaroxaban",
+     "section": "drug_interactions",
+     "quote": "Coadministration of enoxaparin, warfarin, aspirin, clopidogrel and chronic NSAID use may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-prasugrel-ibuprofen",
+   "drugs": [
+    "prasugrel",
+    "ibuprofen"
+   ],
+   "severity": "moderate",
+   "summary": "Chronic NSAID use with prasugrel may increase the risk of bleeding.",
+   "evidence": [
+    {
+     "label_of": "prasugrel",
+     "section": "drug_interactions",
+     "quote": "Coadministration of prasugrel and NSAIDs (used chronically) may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-prasugrel-naproxen",
+   "drugs": [
+    "prasugrel",
+    "naproxen"
+   ],
+   "severity": "moderate",
+   "summary": "Chronic NSAID use with prasugrel may increase the risk of bleeding.",
+   "evidence": [
+    {
+     "label_of": "prasugrel",
+     "section": "drug_interactions",
+     "quote": "Coadministration of prasugrel and NSAIDs (used chronically) may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-prasugrel-celecoxib",
+   "drugs": [
+    "prasugrel",
+    "celecoxib"
+   ],
+   "severity": "moderate",
+   "summary": "Chronic NSAID use with prasugrel may increase the risk of bleeding.",
+   "evidence": [
+    {
+     "label_of": "prasugrel",
+     "section": "drug_interactions",
+     "quote": "Coadministration of prasugrel and NSAIDs (used chronically) may increase the risk of bleeding"
+    }
+   ]
+  },
+  {
+   "id": "ddi-clopidogrel-omeprazole",
+   "drugs": [
+    "clopidogrel",
+    "omeprazole"
+   ],
+   "severity": "major",
+   "summary": "Omeprazole reduces the antiplatelet effect of clopidogrel; avoid the combination.",
+   "evidence": [
+    {
+     "label_of": "clopidogrel",
+     "section": "drug_interactions",
+     "quote": "Avoid concomitant use of clopidogrel with omeprazole or esomeprazole."
+    }
+   ]
+  },
+  {
+   "id": "ddi-simvastatin-clarithromycin",
+   "drugs": [
+    "simvastatin",
+    "clarithromycin"
+   ],
+   "severity": "contraindicated",
+   "summary": "Simvastatin labeling contraindicates strong CYP3A4 inhibitors such as clarithromycin (myopathy and rhabdomyolysis risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "contraindications",
+     "quote": "Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone)"
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "select macrolide antibiotics (e.g., erythromycin and clarithromycin)"
+    },
+    {
+     "label_of": "clarithromycin",
+     "section": "contraindications",
+     "quote": "Concomitant administration of clarithromycin tablets with HMG-CoA reductase inhibitors (statins) that are extensively metabolized by CYP3A4 (lovastatin or simvastatin) is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-simvastatin-erythromycin",
+   "drugs": [
+    "simvastatin",
+    "erythromycin"
+   ],
+   "severity": "contraindicated",
+   "summary": "Simvastatin labeling contraindicates strong CYP3A4 inhibitors such as erythromycin (myopathy and rhabdomyolysis risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "contraindications",
+     "quote": "Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone)"
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "select macrolide antibiotics (e.g., erythromycin and clarithromycin)"
+    }
+   ]
+  },
+  {
+   "id": "ddi-simvastatin-ketoconazole",
+   "drugs": [
+    "simvastatin",
+    "ketoconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Simvastatin labeling contraindicates strong CYP3A4 inhibitors such as ketoconazole (myopathy and rhabdomyolysis risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "contraindications",
+     "quote": "Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone)"
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "Select azole anti-fungals (e.g., itraconazole, ketoconazole, posaconazole, and voriconazole)"
+    }
+   ]
+  },
+  {
+   "id": "ddi-simvastatin-itraconazole",
+   "drugs": [
+    "simvastatin",
+    "itraconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Simvastatin labeling contraindicates strong CYP3A4 inhibitors such as itraconazole (myopathy and rhabdomyolysis risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "contraindications",
+     "quote": "Concomitant use of strong CYP3A4 inhibitors (select azole anti-fungals, macrolide antibiotics, anti-viral medications, and nefazodone)"
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "Select azole anti-fungals (e.g., itraconazole, ketoconazole, posaconazole, and voriconazole)"
+    }
+   ]
+  },
+  {
+   "id": "ddi-simvastatin-amlodipine",
+   "drugs": [
+    "simvastatin",
+    "amlodipine"
+   ],
+   "severity": "major",
+   "summary": "With amlodipine, simvastatin should not exceed 20 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking amiodarone, amlodipine, or ranolazine, do not exceed simvastatin 20 mg daily"
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 20
+   }
+  },
+  {
+   "id": "ddi-simvastatin-amiodarone",
+   "drugs": [
+    "simvastatin",
+    "amiodarone"
+   ],
+   "severity": "major",
+   "summary": "With amiodarone, simvastatin should not exceed 20 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking amiodarone, amlodipine, or ranolazine, do not exceed simvastatin 20 mg daily"
+    },
+    {
+     "label_of": "amiodarone",
+     "section": "drug_interactions",
+     "quote": "Limit the coadministered dose of simvastatin to 20 mg."
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 20
+   }
+  },
+  {
+   "id": "ddi-simvastatin-ranolazine",
+   "drugs": [
+    "simvastatin",
+    "ranolazine"
+   ],
+   "severity": "major",
+   "summary": "With ranolazine, simvastatin should not exceed 20 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking amiodarone, amlodipine, or ranolazine, do not exceed simvastatin 20 mg daily"
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 20
+   }
+  },
+  {
+   "id": "ddi-simvastatin-verapamil",
+   "drugs": [
+    "simvastatin",
+    "verapamil"
+   ],
+   "severity": "major",
+   "summary": "With verapamil, simvastatin should not exceed 10 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking verapamil, diltiazem, or dronedarone, do not exceed simvastatin 10 mg daily."
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "The risk of myopathy and rhabdomyolysis is increased by concomitant use of amiodarone, dronedarone, ranolazine, or calcium channel blockers with simvastatin."
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 10
+   }
+  },
+  {
+   "id": "ddi-simvastatin-diltiazem",
+   "drugs": [
+    "simvastatin",
+    "diltiazem"
+   ],
+   "severity": "major",
+   "summary": "With diltiazem, simvastatin should not exceed 10 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking verapamil, diltiazem, or dronedarone, do not exceed simvastatin 10 mg daily."
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "The risk of myopathy and rhabdomyolysis is increased by concomitant use of amiodarone, dronedarone, ranolazine, or calcium channel blockers with simvastatin."
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 10
+   }
+  },
+  {
+   "id": "ddi-simvastatin-dronedarone",
+   "drugs": [
+    "simvastatin",
+    "dronedarone"
+   ],
+   "severity": "major",
+   "summary": "With dronedarone, simvastatin should not exceed 10 mg daily (myopathy risk).",
+   "evidence": [
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "For patients taking verapamil, diltiazem, or dronedarone, do not exceed simvastatin 10 mg daily."
+    },
+    {
+     "label_of": "simvastatin",
+     "section": "drug_interactions",
+     "quote": "The risk of myopathy and rhabdomyolysis is increased by concomitant use of amiodarone, dronedarone, ranolazine, or calcium channel blockers with simvastatin."
+    }
+   ],
+   "dose_limit": {
+    "drug": "simvastatin",
+    "max_daily_mg": 10
+   }
+  },
+  {
+   "id": "ddi-digoxin-amiodarone",
+   "drugs": [
+    "digoxin",
+    "amiodarone"
+   ],
+   "severity": "major",
+   "summary": "Amiodarone increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Amiodarone 70% NA Measure serum digoxin concentrations before initiating concomitant drugs."
+    }
+   ]
+  },
+  {
+   "id": "ddi-digoxin-verapamil",
+   "drugs": [
+    "digoxin",
+    "verapamil"
+   ],
+   "severity": "major",
+   "summary": "Verapamil increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Verapamil 50 to 75% NA"
+    }
+   ]
+  },
+  {
+   "id": "ddi-digoxin-dronedarone",
+   "drugs": [
+    "digoxin",
+    "dronedarone"
+   ],
+   "severity": "major",
+   "summary": "Dronedarone increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Dronedarone NA 150%"
+    },
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Sudden death was more common in patients receiving digoxin with dronedarone than on either alone"
+    }
+   ]
+  },
+  {
+   "id": "ddi-digoxin-clarithromycin",
+   "drugs": [
+    "digoxin",
+    "clarithromycin"
+   ],
+   "severity": "major",
+   "summary": "Clarithromycin increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Clarithromycin NA 70%"
+    }
+   ]
+  },
+  {
+   "id": "ddi-digoxin-itraconazole",
+   "drugs": [
+    "digoxin",
+    "itraconazole"
+   ],
+   "severity": "major",
+   "summary": "Itraconazole increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Itraconazole 80% NA"
+    }
+   ]
+  },
+  {
+   "id": "ddi-digoxin-erythromycin",
+   "drugs": [
+    "digoxin",
+    "erythromycin"
+   ],
+   "severity": "major",
+   "summary": "Erythromycin increases digoxin concentrations; measure digoxin levels (toxicity risk).",
+   "evidence": [
+    {
+     "label_of": "digoxin",
+     "section": "drug_interactions",
+     "quote": "Erythromycin 100% NA"
+    }
+   ]
+  },
+  {
+   "id": "ddi-nitroglycerin-sildenafil",
+   "drugs": [
+    "nitroglycerin",
+    "sildenafil"
+   ],
+   "severity": "contraindicated",
+   "summary": "Nitrates with PDE-5 inhibitors can cause severe hypotension; the combination is contraindicated.",
+   "evidence": [
+    {
+     "label_of": "nitroglycerin",
+     "section": "contraindications",
+     "quote": "Use of phosphodiesterase type 5 (PDE-5) inhibitors, such as avanafil, sildenafil, tadalafil, or vardenafil"
+    },
+    {
+     "label_of": "sildenafil",
+     "section": "contraindications",
+     "quote": "Administration of sildenafil tablets to patients using nitric oxide donors, such as organic nitrates or organic nitrites in any form."
+    }
+   ]
+  },
+  {
+   "id": "ddi-nitroglycerin-tadalafil",
+   "drugs": [
+    "nitroglycerin",
+    "tadalafil"
+   ],
+   "severity": "contraindicated",
+   "summary": "Nitrates with PDE-5 inhibitors can cause severe hypotension; the combination is contraindicated.",
+   "evidence": [
+    {
+     "label_of": "nitroglycerin",
+     "section": "contraindications",
+     "quote": "Use of phosphodiesterase type 5 (PDE-5) inhibitors, such as avanafil, sildenafil, tadalafil, or vardenafil"
+    },
+    {
+     "label_of": "tadalafil",
+     "section": "contraindications",
+     "quote": "Administration of tadalafil tablets to patients using any form of organic nitrate is contraindicated."
+    }
+   ]
+  },
+  {
+   "id": "ddi-isosorbide-sildenafil",
+   "drugs": [
+    "isosorbide mononitrate",
+    "sildenafil"
+   ],
+   "severity": "contraindicated",
+   "summary": "Organic nitrates with PDE-5 inhibitors can cause severe hypotension; the combination is contraindicated.",
+   "evidence": [
+    {
+     "label_of": "sildenafil",
+     "section": "contraindications",
+     "quote": "Administration of sildenafil tablets to patients using nitric oxide donors, such as organic nitrates or organic nitrites in any form."
+    }
+   ]
+  },
+  {
+   "id": "ddi-isosorbide-tadalafil",
+   "drugs": [
+    "isosorbide mononitrate",
+    "tadalafil"
+   ],
+   "severity": "contraindicated",
+   "summary": "Organic nitrates with PDE-5 inhibitors can cause severe hypotension; the combination is contraindicated.",
+   "evidence": [
+    {
+     "label_of": "tadalafil",
+     "section": "contraindications",
+     "quote": "Administration of tadalafil tablets to patients using any form of organic nitrate is contraindicated."
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-potassium",
+   "drugs": [
+    "spironolactone",
+    "potassium chloride"
+   ],
+   "severity": "major",
+   "summary": "Spironolactone with potassium supplements may lead to severe hyperkalemia.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "drug_interactions",
+     "quote": "Concomitant administration of spironolactone tablets with potassium supplementation or drugs that can increase potassium may lead to severe hyperkalemia."
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-lisinopril",
+   "drugs": [
+    "spironolactone",
+    "lisinopril"
+   ],
+   "severity": "moderate",
+   "summary": "Spironolactone with lisinopril increases the risk of hyperkalemia; monitor potassium.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "warnings_and_cautions",
+     "quote": "drugs that increase potassium, such as angiotensin converting enzyme inhibitors and angiotensin receptor blockers"
+    },
+    {
+     "label_of": "lisinopril",
+     "section": "drug_interactions",
+     "quote": "Potassium-sparing diuretics (spironolactone, amiloride, triamterene, and others) can increase the risk of hyperkalemia."
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-enalapril",
+   "drugs": [
+    "spironolactone",
+    "enalapril"
+   ],
+   "severity": "moderate",
+   "summary": "Spironolactone with enalapril increases the risk of hyperkalemia; monitor potassium.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "warnings_and_cautions",
+     "quote": "drugs that increase potassium, such as angiotensin converting enzyme inhibitors and angiotensin receptor blockers"
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-ramipril",
+   "drugs": [
+    "spironolactone",
+    "ramipril"
+   ],
+   "severity": "moderate",
+   "summary": "Spironolactone with ramipril increases the risk of hyperkalemia; monitor potassium.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "warnings_and_cautions",
+     "quote": "drugs that increase potassium, such as angiotensin converting enzyme inhibitors and angiotensin receptor blockers"
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-losartan",
+   "drugs": [
+    "spironolactone",
+    "losartan"
+   ],
+   "severity": "moderate",
+   "summary": "Spironolactone with losartan increases the risk of hyperkalemia; monitor potassium.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "warnings_and_cautions",
+     "quote": "drugs that increase potassium, such as angiotensin converting enzyme inhibitors and angiotensin receptor blockers"
+    }
+   ]
+  },
+  {
+   "id": "ddi-spironolactone-valsartan",
+   "drugs": [
+    "spironolactone",
+    "valsartan"
+   ],
+   "severity": "moderate",
+   "summary": "Spironolactone with valsartan increases the risk of hyperkalemia; monitor potassium.",
+   "evidence": [
+    {
+     "label_of": "spironolactone",
+     "section": "warnings_and_cautions",
+     "quote": "drugs that increase potassium, such as angiotensin converting enzyme inhibitors and angiotensin receptor blockers"
+    }
+   ]
+  },
+  {
+   "id": "ddi-eplerenone-potassium",
+   "drugs": [
+    "eplerenone",
+    "potassium chloride"
+   ],
+   "severity": "contraindicated",
+   "summary": "Eplerenone is contraindicated with potassium supplements.",
+   "evidence": [
+    {
+     "label_of": "eplerenone",
+     "section": "contraindications",
+     "quote": "Concomitant use of potassium supplements or potassium-sparing diuretics"
+    }
+   ]
+  },
+  {
+   "id": "ddi-eplerenone-clarithromycin",
+   "drugs": [
+    "eplerenone",
+    "clarithromycin"
+   ],
+   "severity": "contraindicated",
+   "summary": "Eplerenone is contraindicated with strong CYP3A inhibitors such as clarithromycin.",
+   "evidence": [
+    {
+     "label_of": "eplerenone",
+     "section": "contraindications",
+     "quote": "concomitant administration of strong CYP3A inhibitors (e.g., ketoconazole, itraconazole, nefazodone, troleandomycin, clarithromycin"
+    }
+   ]
+  },
+  {
+   "id": "ddi-eplerenone-ketoconazole",
+   "drugs": [
+    "eplerenone",
+    "ketoconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Eplerenone is contraindicated with strong CYP3A inhibitors such as ketoconazole.",
+   "evidence": [
+    {
+     "label_of": "eplerenone",
+     "section": "contraindications",
+     "quote": "concomitant administration of strong CYP3A inhibitors (e.g., ketoconazole, itraconazole, nefazodone, troleandomycin, clarithromycin"
+    }
+   ]
+  },
+  {
+   "id": "ddi-eplerenone-itraconazole",
+   "drugs": [
+    "eplerenone",
+    "itraconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Eplerenone is contraindicated with strong CYP3A inhibitors such as itraconazole.",
+   "evidence": [
+    {
+     "label_of": "eplerenone",
+     "section": "contraindications",
+     "quote": "concomitant administration of strong CYP3A inhibitors (e.g., ketoconazole, itraconazole, nefazodone, troleandomycin, clarithromycin"
+    }
+   ]
+  },
+  {
+   "id": "ddi-dofetilide-verapamil",
+   "drugs": [
+    "dofetilide",
+    "verapamil"
+   ],
+   "severity": "contraindicated",
+   "summary": "Verapamil increases dofetilide concentrations and QT prolongation; contraindicated.",
+   "evidence": [
+    {
+     "label_of": "dofetilide",
+     "section": "drug_interactions",
+     "quote": "Concomitant use of verapamil is contraindicated."
+    }
+   ]
+  },
+  {
+   "id": "ddi-dofetilide-hydrochlorothiazide",
+   "drugs": [
+    "dofetilide",
+    "hydrochlorothiazide"
+   ],
+   "severity": "contraindicated",
+   "summary": "Hydrochlorothiazide increases dofetilide concentrations and QT prolongation; contraindicated.",
+   "evidence": [
+    {
+     "label_of": "dofetilide",
+     "section": "drug_interactions",
+     "quote": "Concomitant use of HCTZ alone or in combination with triamterene is contraindicated."
+    }
+   ]
+  },
+  {
+   "id": "ddi-dofetilide-ketoconazole",
+   "drugs": [
+    "dofetilide",
+    "ketoconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Ketoconazole with dofetilide is contraindicated.",
+   "evidence": [
+    {
+     "label_of": "dofetilide",
+     "section": "contraindications",
+     "quote": "trimethoprim (alone or in combination with sulfamethoxazole), or ketoconazole with dofetilide capsules is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-dronedarone-ketoconazole",
+   "drugs": [
+    "dronedarone",
+    "ketoconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Potent CYP3A inhibitors such as ketoconazole are contraindicated with dronedarone.",
+   "evidence": [
+    {
+     "label_of": "dronedarone",
+     "section": "drug_interactions",
+     "quote": "Concomitant use of ketoconazole as well as other potent CYP3A inhibitors such as itraconazole, voriconazole, ritonavir, clarithromycin, and nefazodone is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-dronedarone-itraconazole",
+   "drugs": [
+    "dronedarone",
+    "itraconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Potent CYP3A inhibitors such as itraconazole are contraindicated with dronedarone.",
+   "evidence": [
+    {
+     "label_of": "dronedarone",
+     "section": "drug_interactions",
+     "quote": "Concomitant use of ketoconazole as well as other potent CYP3A inhibitors such as itraconazole, voriconazole, ritonavir, clarithromycin, and nefazodone is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-dronedarone-clarithromycin",
+   "drugs": [
+    "dronedarone",
+    "clarithromycin"
+   ],
+   "severity": "contraindicated",
+   "summary": "Potent CYP3A inhibitors such as clarithromycin are contraindicated with dronedarone.",
+   "evidence": [
+    {
+     "label_of": "dronedarone",
+     "section": "drug_interactions",
+     "quote": "Concomitant use of ketoconazole as well as other potent CYP3A inhibitors such as itraconazole, voriconazole, ritonavir, clarithromycin, and nefazodone is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-ivabradine-clarithromycin",
+   "drugs": [
+    "ivabradine",
+    "clarithromycin"
+   ],
+   "severity": "contraindicated",
+   "summary": "Strong CYP3A4 inhibitors such as clarithromycin are contraindicated with ivabradine.",
+   "evidence": [
+    {
+     "label_of": "ivabradine",
+     "section": "drug_interactions",
+     "quote": "The concomitant use of strong CYP3A4 inhibitors is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-ivabradine-itraconazole",
+   "drugs": [
+    "ivabradine",
+    "itraconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Strong CYP3A4 inhibitors such as itraconazole are contraindicated with ivabradine.",
+   "evidence": [
+    {
+     "label_of": "ivabradine",
+     "section": "drug_interactions",
+     "quote": "The concomitant use of strong CYP3A4 inhibitors is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-ivabradine-ketoconazole",
+   "drugs": [
+    "ivabradine",
+    "ketoconazole"
+   ],
+   "severity": "contraindicated",
+   "summary": "Strong CYP3A4 inhibitors such as ketoconazole are contraindicated with ivabradine.",
+   "evidence": [
+    {
+     "label_of": "ivabradine",
+     "section": "drug_interactions",
+     "quote": "The concomitant use of strong CYP3A4 inhibitors is contraindicated"
+    }
+   ]
+  },
+  {
+   "id": "ddi-ivabradine-verapamil",
+   "drugs": [
+    "ivabradine",
+    "verapamil"
+   ],
+   "severity": "major",
+   "summary": "Verapamil increases ivabradine exposure and lowers heart rate; avoid.",
+   "evidence": [
+    {
+     "label_of": "ivabradine",
+     "section": "warnings_and_cautions",
+     "quote": "Concurrent use of verapamil or diltiazem will increase ivabradine exposure, may themselves contribute to heart rate lowering, and should be avoided"
+    }
+   ]
+  },
+  {
+   "id": "ddi-ivabradine-diltiazem",
+   "drugs": [
+    "ivabradine",
+    "diltiazem"
+   ],
+   "severity": "major",
+   "summary": "Diltiazem increases ivabradine exposure and lowers heart rate; avoid.",
+   "evidence": [
+    {
+     "label_of": "ivabradine",
+     "section": "warnings_and_cautions",
+     "quote": "Concurrent use of verapamil or diltiazem will increase ivabradine exposure, may themselves contribute to heart rate lowering, and should be avoided"
+    }
+   ]
+  },
+  {
+   "id": "ddi-sacubitril-lisinopril",
+   "drugs": [
+    "sacubitril",
+    "lisinopril"
+   ],
+   "severity": "contraindicated",
+   "summary": "Sacubitril/valsartan with an ACE inhibitor is contraindicated (angioedema); allow 36 hours between them.",
+   "evidence": [
+    {
+     "label_of": "sacubitril",
+     "section": "contraindications",
+     "quote": "Do not administer within 36 hours of switching from or to an ACE inhibitor"
+    }
+   ]
+  },
+  {
+   "id": "ddi-sacubitril-enalapril",
+   "drugs": [
+    "sacubitril",
+    "enalapril"
+   ],
+   "severity": "contraindicated",
+   "summary": "Sacubitril/valsartan with an ACE inhibitor is contraindicated (angioedema); allow 36 hours between them.",
+   "evidence": [
+    {
+     "label_of": "sacubitril",
+     "section": "contraindications",
+     "quote": "Do not administer within 36 hours of switching from or to an ACE inhibitor"
+    },
+    {
+     "label_of": "enalapril",
+     "section": "contraindications",
+     "quote": "Do not administer enalapril maleate within 36 hours of switching to or from sacubitril/valsartan"
+    }
+   ]
+  },
+  {
+   "id": "ddi-sacubitril-ramipril",
+   "drugs": [
+    "sacubitril",
+    "ramipril"
+   ],
+   "severity": "contraindicated",
+   "summary": "Sacubitril/valsartan with an ACE inhibitor is contraindicated (angioedema); allow 36 hours between them.",
+   "evidence": [
+    {
+     "label_of": "sacubitril",
+     "section": "contraindications",
+     "quote": "Do not administer within 36 hours of switching from or to an ACE inhibitor"
+    }
+   ]
+  }
+ ],
+ "condition_cautions": [
+  {
+   "id": "cc-nsaid-heart-failure",
+   "drugs": [
+    "naproxen",
+    "celecoxib",
+    "ibuprofen"
+   ],
+   "condition_terms": [
+    "heart failure"
+   ],
+   "severity": "major",
+   "summary": "NSAIDs can worsen heart failure (fluid retention); avoid in severe heart failure.",
+   "evidence": [
+    {
+     "label_of": "naproxen",
+     "section": "warnings_and_cautions",
+     "quote": "Avoid use of naproxen tablets and naproxen sodium tablets in patients with severe heart failure unless benefits are expected to outweigh risk of worsening heart failure."
+    },
+    {
+     "label_of": "celecoxib",
+     "section": "warnings_and_cautions",
+     "quote": "Avoid use of celecoxib capsules in patients with severe heart failure unless benefits are expected to outweigh risk of worsening heart failure"
+    },
+    {
+     "label_of": "ibuprofen",
+     "section": "warnings",
+     "quote": "NSAIDs, except aspirin, increase the risk of heart attack, heart failure, and stroke."
+    }
+   ]
+  },
+  {
+   "id": "cc-dronedarone-heart-failure",
+   "drugs": [
+    "dronedarone"
+   ],
+   "condition_terms": [
+    "heart failure"
+   ],
+   "severity": "major",
+   "summary": "Dronedarone is contraindicated in symptomatic heart failure with recent decompensation or NYHA class IV.",
+   "evidence": [
+    {
+     "label_of": "dronedarone",
+     "section": "boxed_warning",
+     "quote": "MULTAQ is contraindicated in patients with symptomatic heart failure with recent decompensation requiring hospitalization or NYHA Class IV heart failure"
+    }
+   ]
+  }
+ ],
+ "allergy_substances": [
+  {
+   "id": "allergen-ace-inhibitor",
+   "terms": [
+    "lisinopril",
+    "enalapril",
+    "ramipril",
+    "ace inhibitor",
+    "ace inhibitors",
+    "angiotensin converting enzyme inhibitor"
+   ],
+   "maps_to": [
+    {
+     "kind": "epc",
+     "name": "Angiotensin Converting Enzyme Inhibitor",
+     "relation": "CONTRAINDICATED_FOR",
+     "basis": "FDA EPC class membership"
+    }
+   ],
+   "cautions": [
+    {
+     "kind": "ingredient",
+     "name": "sacubitril",
+     "basis": "label statement",
+     "evidence": {
+      "label_of": "sacubitril",
+      "section": "contraindications",
+      "quote": "in patients with a history of angioedema related to previous ACE inhibitor or ARB therapy"
+     }
+    }
+   ],
+   "evidence": {
+    "label_of": "lisinopril",
+    "section": "contraindications",
+    "quote": "a history of angioedema or hypersensitivity related to previous treatment with an angiotensin converting enzyme inhibitor"
+   }
+  },
+  {
+   "id": "allergen-aspirin",
+   "terms": [
+    "aspirin",
+    "asa",
+    "acetylsalicylic acid"
+   ],
+   "maps_to": [
+    {
+     "kind": "ingredient",
+     "name": "aspirin",
+     "relation": "CONTRAINDICATED_FOR",
+     "basis": "same ingredient"
+    }
+   ],
+   "cautions": [
+    {
+     "kind": "epc",
+     "name": "Nonsteroidal Anti-inflammatory Drug",
+     "basis": "label statement",
+     "evidence": {
+      "label_of": "ibuprofen",
+      "section": "warnings",
+      "quote": "if you have ever had an allergic reaction to any other pain reliever/fever reducer"
+     }
+    }
+   ],
+   "evidence": {
+    "label_of": "aspirin",
+    "section": "warnings",
+    "quote": "Aspirin may cause severe allergic reactions which may include:"
+   }
+  },
+  {
+   "id": "allergen-nsaid",
+   "terms": [
+    "ibuprofen",
+    "naproxen",
+    "celecoxib",
+    "nsaid",
+    "nsaids",
+    "advil",
+    "motrin",
+    "aleve"
+   ],
+   "maps_to": [
+    {
+     "kind": "epc",
+     "name": "Nonsteroidal Anti-inflammatory Drug",
+     "relation": "CONTRAINDICATED_FOR",
+     "basis": "FDA EPC class membership"
+    }
+   ],
+   "evidence": {
+    "label_of": "ibuprofen",
+    "section": "warnings",
+    "quote": "if you have ever had an allergic reaction to any other pain reliever/fever reducer"
+   }
+  }
+ ],
+ "condition_aliases": {
+  "_note": "Patient condition names (lower case) -> MED-RT disease names. MED-RT 'ci_with' links are coarse (e.g. heart failure is listed for beta-blockers that treat it), so every MED-RT match is reported as a 'caution - check the label for the specific circumstance', never as a blocking contraindication. Only label-quoted curated edges can block.",
+  "chronic congestive heart failure": [
+   [
+    "Heart Failure",
+    "exact"
+   ]
+  ],
+  "heart failure": [
+   [
+    "Heart Failure",
+    "exact"
+   ]
+  ],
+  "atrial fibrillation": [
+   [
+    "Atrial Fibrillation",
+    "exact"
+   ]
+  ],
+  "ischemic heart disease": [
+   [
+    "Coronary Disease",
+    "review"
+   ]
+  ],
+  "coronary arteriosclerosis": [
+   [
+    "Coronary Artery Disease",
+    "exact"
+   ]
+  ],
+  "acute non-st segment elevation myocardial infarction": [
+   [
+    "Myocardial Infarction",
+    "exact"
+   ]
+  ],
+  "acute st segment elevation myocardial infarction": [
+   [
+    "Myocardial Infarction",
+    "exact"
+   ]
+  ],
+  "myocardial infarction": [
+   [
+    "Myocardial Infarction",
+    "exact"
+   ]
+  ],
+  "history of myocardial infarction": [
+   [
+    "Myocardial Infarction",
+    "review"
+   ]
+  ],
+  "diabetes mellitus type 2": [
+   [
+    "Diabetes Mellitus, Type 2",
+    "exact"
+   ]
+  ],
+  "chronic kidney disease stage 3": [
+   [
+    "Renal Insufficiency",
+    "review"
+   ]
+  ],
+  "chronic kidney disease stage 4": [
+   [
+    "Renal Insufficiency",
+    "review"
+   ]
+  ],
+  "disorder of kidney due to diabetes mellitus": [
+   [
+    "Kidney Diseases",
+    "review"
+   ]
+  ],
+  "anemia": [
+   [
+    "Anemia",
+    "exact"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "MediBridge keep: cardiac",
+  "remarks": ["Keeps only generated patients with an active cardiac diagnosis (Synthea keep module)."],
+  "gmf_version": 2,
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Or",
+            "conditions": [
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "49436004", "display": "Atrial fibrillation"}]},
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "88805009", "display": "Chronic congestive heart failure"}]},
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "53741008", "display": "Coronary arteriosclerosis"}]},
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "22298006", "display": "Myocardial infarction"}]},
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "399211009", "display": "History of myocardial infarction"}]},
+              {"condition_type": "Active Condition", "codes": [{"system": "SNOMED-CT", "code": "414545008", "display": "Ischemic heart disease"}]}
+            ]
+          },
+          "transition": "Keep"
+        },
+        {"transition": "Terminal"}
+      ]
+    },
+    "Keep": {"type": "Terminal"},
+    "Terminal": {"type": "Terminal"}
+  }
+}

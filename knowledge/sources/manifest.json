@@ -1,0 +1,1616 @@
+{
+ "built_at": "2026-11-02T15:35:28.202171+00:00",
+ "sources": [
+  {
+   "id": "rxnorm",
+   "name": "RxNorm (via RxNav REST API)",
+   "publisher": "U.S. National Library of Medicine",
+   "license": "RxNorm SAB=RXNORM content: no licence restrictions (UMLS licence not required)",
+   "url": "https://lhncbc.nlm.nih.gov/RxNav/",
+   "version": "02-Nov-2026",
+   "retrieved_at": "2026-11-02T15:35:28.182383+00:00"
+  },
+  {
+   "id": "medrt",
+   "name": "MED-RT (via RxClass)",
+   "publisher": "U.S. Department of Veterans Affairs / NLM",
+   "license": "Public domain (U.S. Government work)",
+   "url": "https://lhncbc.nlm.nih.gov/RxNav/applications/RxClassIntro.html",
+   "version": "RxNav 02-Nov-2026",
+   "retrieved_at": "2026-11-02T15:35:28.201195+00:00"
+  },
+  {
+   "id": "fdaspl_epc",
+   "name": "FDA Established Pharmacologic Class (via RxClass)",
+   "publisher": "U.S. FDA",
+   "license": "Public domain (U.S. Government work)",
+   "url": "https://www.fda.gov/industry/structured-product-labeling-resources/pharmacologic-class",
+   "version": "RxNav 02-Nov-2026",
+   "retrieved_at": "2026-11-02T15:35:28.202171+00:00"
+  },
+  {
+   "id": "openfda_label",
+   "name": "openFDA drug labeling (SPL)",
+   "publisher": "U.S. FDA",
+   "license": "CC0 1.0 / public domain",
+   "url": "https://open.fda.gov/apis/drug/label/",
+   "version": "2026-10-30",
+   "retrieved_at": "2026-11-02T15:35:28.202171+00:00"
+  }
+ ],
+ "raw_dir": "raw",
+ "raw_files": {
+  "rxnorm": {
+   "rxcui:warfarin": {
+    "file": "rxnorm/072edf3f9020d7fe.json",
+    "sha256": "b4898af7cfcebcfb69ce54469b5c30bec0cd98676598cc4e53db773fe92f4f9e"
+   },
+   "related:11289:BN": {
+    "file": "rxnorm/e11b98c62b4ff18c.json",
+    "sha256": "e6565b5a484819cf46019e7eb9a78eff538b0a75c2d89db0f33b6c2c5c456516"
+   },
+   "names:11289": {
+    "file": "rxnorm/493cf15b45c52edd.json",
+    "sha256": "06baf62dc26f225ee37744a80646d23087c80b74ec1c392e904ac635085d0e99"
+   },
+   "rxcui:apixaban": {
+    "file": "rxnorm/9484b7c1c926ad82.json",
+    "sha256": "3a68311da3db3f60dba91a56931063750a970640bf50ea68d9d41771d8a2848a"
+   },
+   "related:1364430:BN": {
+    "file": "rxnorm/f3a24b05cd70668e.json",
+    "sha256": "afc17dc845d0680f7e874eedd6a352e5f2a37b75b4f98379b06c5af2dc5c32ad"
+   },
+   "names:1364430": {
+    "file": "rxnorm/fa5e6e64d224b30a.json",
+    "sha256": "dac38301867c99ede92112338a25553bcdb7a2821e5f791aac4a8d8c9eac8a79"
+   },
+   "rxcui:rivaroxaban": {
+    "file": "rxnorm/b5199411ead6480f.json",
+    "sha256": "7eed7a78520d48cbe1c2ed1bd5b91fc7a5b2fd4ca0d62b206bbb990c659250e2"
+   },
+   "related:1114195:BN": {
+    "file": "rxnorm/7e22225ac46afd0f.json",
+    "sha256": "a5b56cc49ad3a2d5825b800d71232672f23973ec5d91405bf93e747e80be45ea"
+   },
+   "names:1114195": {
+    "file": "rxnorm/652ec06f21e65125.json",
+    "sha256": "4a879d1b9adcc3a048b5f3a2664e16716e11b58d4d38060738aa0980766a79ce"
+   },
+   "rxcui:dabigatran": {
+    "file": "rxnorm/99c3a95126957818.json",
+    "sha256": "c7e1347edddaec127d6f9f7ddbfa779c611a4fa6bc700d57430addebbf516c52"
+   },
+   "related:1546356:BN": {
+    "file": "rxnorm/b832f6f49fa12e9b.json",
+    "sha256": "8fbc68b2f5fecf33555f1e92e55ad7a6335d26fa15a9fd506105c28078c9abfa"
+   },
+   "names:1546356": {
+    "file": "rxnorm/89fd58cc907a4220.json",
+    "sha256": "1716343c6be27264fb422e4aecb0133420fe08f76f137f616a7eba361fb0a9da"
+   },
+   "rxcui:enoxaparin": {
+    "file": "rxnorm/b521b6a7e8492700.json",
+    "sha256": "c9fa6811d4f06e44eb189bb7ddb729d229b673b42f8f47d29aefaa4b150cb14f"
+   },
+   "related:67108:BN": {
+    "file": "rxnorm/4e1778b3df798ab1.json",
+    "sha256": "e5c551c44b05ca6394c96d2a1ed4e9bfcd2ecba0ff9f80126cd2c086da6febde"
+   },
+   "names:67108": {
+    "file": "rxnorm/0829024a4f5c77a6.json",
+    "sha256": "901969b460c7719a70009c21afe7dff0d2d2f62f87e31750a62e753d43fe0159"
+   },
+   "rxcui:heparin": {
+    "file": "rxnorm/385b32694e9c53a0.json",
+    "sha256": "d7e8245e37699ea58f5172cd5b00439665dd2b66a69de5230b30997603099582"
+   },
+   "related:235473:BN": {
+    "file": "rxnorm/3f721737ffd75d97.json",
+    "sha256": "8fbc68b2f5fecf33555f1e92e55ad7a6335d26fa15a9fd506105c28078c9abfa"
+   },
+   "names:235473": {
+    "file": "rxnorm/b46923cac5d84652.json",
+    "sha256": "9c6ab6fe761cd86241675320fc7fb8ce55bf794e8413c8b426478e58a2912cab"
+   },
+   "rxcui:aspirin": {
+    "file": "rxnorm/faf141ae0e99b6d6.json",
+    "sha256": "8ffe7bc27be0850f21718354f7a8d94aa26f4331ba9f9f7e27b9314e3434a329"
+   },
+   "related:1191:BN": {
+    "file": "rxnorm/9fb359ab939a5dd5.json",
+    "sha256": "eeaa38e609e313b662dc562530638dfdd2a7c1eb6f01c22ba5c14243b0d0fb36"
+   },
+   "names:1191": {
+    "file": "rxnorm/0fb391bdbf0a9fc0.json",
+    "sha256": "6ba7f5bcd9c8f49f84816e9d8118d6b233d39d9d356a63889e741896066ad459"
+   },
+   "rxcui:clopidogrel": {
+    "file": "rxnorm/ad51e7bbc1ddb24b.json",
+    "sha256": "10ad625c521dc70d162988941e8093ecc03fd71657f5f87426299f2eab21baa3"
+   },
+   "related:32968:BN": {
+    "file": "rxnorm/2ccde7f709452233.json",
+    "sha256": "6ec1a78b1bd7126102837f356650900bf35ce45ed0307a93b0cd8f020fced234"
+   },
+   "names:32968": {
+    "file": "rxnorm/a2e3a7fc18787c77.json",
+    "sha256": "dcc1621ab4723b2a1f51bc0d5005ba7e7fe5f36ec76c80370374b7c4c56c44d7"
+   },
+   "rxcui:prasugrel": {
+    "file": "rxnorm/5c3fb4952fa770d8.json",
+    "sha256": "78527e304743ba9c531915d6c298c1647e3f0830dbde56f4527b4758349eb7e2"
+   },
+   "related:613391:BN": {
+    "file": "rxnorm/eee29b2a2c36adf7.json",
+    "sha256": "400c73fbf485935b92873b1c9f754ff6b0eea8e5adea595b05cda08d79b22ce8"
+   },
+   "names:613391": {
+    "file": "rxnorm/c352c8e3a7493d9e.json",
+    "sha256": "6a24fc73806508971d3f09a2cc622eddd1ac43d02e8e73aa4a3a6c743aa52b1d"
+   },
+   "rxcui:ticagrelor": {
+    "file": "rxnorm/846f45cda18912e3.json",
+    "sha256": "a2bf31d5f10312ecfe4216bf5e11fb6af1cf39bedb5604b5b7289082c3decc6f"
+   },
+   "related:1116632:BN": {
+    "file": "rxnorm/717b408eac5542fe.json",
+    "sha256": "46189d6f0bc0684b5a22f2361fb9b3f3e1e5ce4bfefdfc959c78155c6352f325"
+   },
+   "names:1116632": {
+    "file": "rxnorm/8b9d83958a4f8cce.json",
+    "sha256": "0b9885fd169df30a5a85e74801f814b041f9b60f15a57eef1fbc55312dbb56e4"
+   },
+   "rxcui:metoprolol": {
+    "file": "rxnorm/d8996835090ba46b.json",
+    "sha256": "39632bf4faa5f37fb17a1aff97eb6f43bd078e903c817ba402a7803d5930cfd5"
+   },
+   "related:6918:BN": {
+    "file": "rxnorm/d71be1f9053633b0.json",
+    "sha256": "2d19fc9dc1b340330f49754c54c6b4636f5aadcefd435cea4113f54e77a30ff5"
+   },
+   "names:6918": {
+    "file": "rxnorm/ca368983c164e271.json",
+    "sha256": "ede824cd0bca556a130e54b3e7558150d5d6b17de005ea3970545d4beb455740"
+   },
+   "rxcui:carvedilol": {
+    "file": "rxnorm/a85ae66292b8a2cc.json",
+    "sha256": "3e122f1dcd07414139c67b967b21dff5853236b3dd3b549f2af5d86d9e90c3fa"
+   },
+   "related:20352:BN": {
+    "file": "rxnorm/6217a641b982ff19.json",
+    "sha256": "9f97e9ca699eebdf9fc3eb9506759b2caa92f6b412124fb853ee55d16d71c563"
+   },
+   "names:20352": {
+    "file": "rxnorm/5a448969c32c221d.json",
+    "sha256": "7c7fd61db83eb16cd7c2c5bce09d3b6c87a45f73959e8ea2fd5a74cb379cca41"
+   },
+   "rxcui:bisoprolol": {
+    "file": "rxnorm/6568696ee50517eb.json",
+    "sha256": "b3a66c58343b47ed53911d1eb6249a376a1860546f5af97ccfe6b39792c58bd5"
+   },
+   "related:19484:BN": {
+    "file": "rxnorm/5217ae7e1e56f011.json",
+    "sha256": "8fbc68b2f5fecf33555f1e92e55ad7a6335d26fa15a9fd506105c28078c9abfa"
+   },
+   "names:19484": {
+    "file": "rxnorm/a8fb90a8600b4ec2.json",
+    "sha256": "6aaca7479f0501ac35cda718d209b96c1dd8154dbc9358ba4553c89a7e025e6e"
+   },
+   "rxcui:atenolol": {
+    "file": "rxnorm/b5f274f274f915cb.json",
+    "sha256": "6f464d20ffca4d34249cdd3684e6b7eea5027860dc2798e27f4b8289931893cc"
+   },
+   "related:1202:BN": {
+    "file": "rxnorm/385f5ed6c158d051.json",
+    "sha256": "a4748e99699a91e633eebe162cd7bb69358e6fc79523d563196b60c4507b5158"
+   },
+   "names:1202": {
+    "file": "rxnorm/2e1b4a164a94408f.json",
+    "sha256": "fd188af2b563ec1fc79934d3b22b5d49173de247bcf6a72c25dd022cbc6635e5"
+   },
+   "rxcui:propranolol": {
+    "file": "rxnorm/0169b3236059bc68.json",
+    "sha256": "fd49f7b454dd6f9bf54c3e04c36ed37a192236313bff481ca52343c020ab0523"
+   },
+   "related:8787:BN": {
+    "file": "rxnorm/880ef102b6575bc9.json",
+    "sha256": "c7d7131f4b0a2d75de332c27a18947a3436bd41994e8ec0bcd67127590441263"
+   },
+   "names:8787": {
+    "file": "rxnorm/3303628ecded1f80.json",
+    "sha256": "b1fa2c2a8321eaf71bd8439e815d6189d4a66048f21c26f9da151d31aaf5551f"
+   },
+   "rxcui:labetalol": {
+    "file": "rxnorm/edbc7b4c177ae9e0.json",
+    "sha256": "625d1523cc50fd573dd748e6de16b8873875e831ace95e67da0b334eb432edfb"
+   },
+   "related:6185:BN": {
+    "file": "rxnorm/6cc016f97f3857a3.json",
+    "sha256": "e1d2bdc26e1059bd2096de02bbadb6291a833c5bb93d069a50cbc62c25d1ef25"
+   },
+   "names:6185": {
+    "file": "rxnorm/b8be4e7c4af38263.json",
+    "sha256": "43c30c197d31e684c071ff4accb0d93f57c129dfb93a327cb70fc25627c9b259"
+   },
+   "rxcui:sotalol": {
+    "file": "rxnorm/6b175a21b1d11923.json",
+    "sha256": "b375608ad3a7cb722ed1532bfca40a48160b327c67470f44704bfa366034c460"
+   },
+   "related:9947:BN": {
+    "file": "rxnorm/04ea894430d4df71.json",
+    "sha256": "73e8ba94c6b3acf2b43318557db2f1298ebe56c30005fdaeaf8145953d00f820"
+   },
+   "names:9947": {
+    "file": "rxnorm/98d8ff103b18ad3c.json",
+    "sha256": "bec917f020c2a86b728f687db67af9a1cfa830af580ffd249e994d0c4e578f48"
+   },
+   "rxcui:lisinopril": {
+    "file": "rxnorm/74082182984b816f.json",
+    "sha256": "f50a0dc0c802ceb6da21a3953872fbe9510f6dce8885f7079bcf2ef98a12c499"
+   },
+   "related:29046:BN": {
+    "file": "rxnorm/5fce364fdba88a84.json",
+    "sha256": "164612ef9056fb69e752172839992c9db63d81d2ba2dd12d55bfcdbcc42c9590"
+   },
+   "names:29046": {
+    "file": "rxnorm/d727d422e43ed4cc.json",
+    "sha256": "470da0a1f1e96251c7dedee607179e74f0e9268f4bbf072d7731e46e9975ddde"
+   },
+   "rxcui:enalapril": {
+    "file": "rxnorm/dff97d1005ce3459.json",
+    "sha256": "a7657dd1b1ccf16ad64b5047582ce06e42836884240c8c4ecd4783d82c166bd5"
+   },
+   "related:3827:BN": {
+    "file": "rxnorm/d777fe39032aaea1.json",
+    "sha256": "7cf6f47d5d8f0013972b1125d96615ed09d229cb222e2a0af8547050d882de45"
+   },
+   "names:3827": {
+    "file": "rxnorm/331baa2810c36360.json",
+    "sha256": "554ecfa4b24f812982eae01f05ca15cf0ee1770a880b7d3a5cb04c1de0f9ddb0"
+   },
+   "rxcui:ramipril": {
+    "file": "rxnorm/d1eef4b88876664a.json",
+    "sha256": "c864fb06193f0ef46b1418340cf35b31857efdfb7f765edb65283b56f8452b86"
+   },
+   "related:35296:BN": {
+    "file": "rxnorm/b2b8dc54ecf61436.json",
+    "sha256": "414c5095b02bfe05173adc92dbd037d1fa630fe31700af3505d7750802bfe0df"
+   },
+   "names:35296": {
+    "file": "rxnorm/a0d713c8cf359d66.json",
+    "sha256": "e0ff12de6b5ea1a52038ab83284a1a5c7807350bc7f237d94a8a893f31b69042"
+   },
+   "rxcui:losartan": {
+    "file": "rxnorm/dd6202fbed77e4cd.json",
+    "sha256": "21753fd919fd7af53946593da99054a546b9ccf5e25a77f97d31a552a2c3a759"
+   },
+   "related:52175:BN": {
+    "file": "rxnorm/e5351ae9fbf29a76.json",
+    "sha256": "828ab47e90b55e5fab65bd536ab1571139a91ea5e04bdd7ac175856a67a9424d"
+   },
+   "names:52175": {
+    "file": "rxnorm/d8a618e7a042d930.json",
+    "sha256": "7817d6bbf4dcc9f499043a7e1029e0e0822fb54b84289479cba9abfb1949d511"
+   },
+   "rxcui:valsartan": {
+    "file": "rxnorm/4c92db13eb0f45e4.json",
+    "sha256": "aaa5cab85008947d378f91bcff01f41d404d320992d76dcd3cb396b1186d1d71"
+   },
+   "related:69749:BN": {
+    "file": "rxnorm/376fb5b12acc5503.json",
+    "sha256": "86111a081a076ffb16c7a120c7eaf3b29de16b81be24de12beac26e9f3f596e1"
+   },
+   "names:69749": {
+    "file": "rxnorm/ab14261df55e1096.json",
+    "sha256": "bc20f1481746a2a1cdcea264fa79083db3ac0a12f37f4a3da4656273722d8bb0"
+   },
+   "rxcui:sacubitril": {
+    "file": "rxnorm/51ad2ec320ce5741.json",
+    "sha256": "7cbdd5b75f538c5af67015c641a5f5f1ff76313719e596bae35f1de9ab081394"
+   },
+   "related:1656328:BN": {
+    "file": "rxnorm/903a0c2b3911a5ab.json",
+    "sha256": "a39bba5e83f01e2eee578e2afe936c3a529eb605caf4e5570f03a274e5140028"
+   },
+   "names:1656328": {
+    "file": "rxnorm/34689f128f9bb85f.json",
+    "sha256": "04e4fda5e09ce516c7592514342588e912c58d1736556166564c5220443168a4"
+   },
+   "rxcui:amlodipine": {
+    "file": "rxnorm/1a0d1bf00e1675f1.json",
+    "sha256": "f9724876fd58b88f2e289ad69b38d6d2831b79220dfcc7e233dc8a43549f694a"
+   },
+   "related:17767:BN": {
+    "file": "rxnorm/077117fe6441a03c.json",
+    "sha256": "5be18a5b4f0da45fd21ad24b5199aa90202aaa37762a6422cffde8a1e022be9e"
+   },
+   "names:17767": {
+    "file": "rxnorm/041d0d1656939b22.json",
+    "sha256": "b5c8c54457250bd74b8dc9108a163d7cdd0e9a32f7f75254651ba16844cd340e"
+   },
+   "rxcui:diltiazem": {
+    "file": "rxnorm/9670ac1c325d45ad.json",
+    "sha256": "94bd9a26df565496bf68ca410426dc69b8b06247a6ccff919bed687ab13f94e5"
+   },
+   "related:3443:BN": {
+    "file": "rxnorm/2f366d070f35def3.json",
+    "sha256": "30855b747bbceb9aa7b45876e7a58796a06a2d660a90c4dc759adaa29eea5f81"
+   },
+   "names:3443": {
+    "file": "rxnorm/1fd269e402ad35a8.json",
+    "sha256": "d84ab25f65cf1cc474d953d52eeb0d319c8ccf823508cfcf5094518bd61a93a6"
+   },
+   "rxcui:verapamil": {
+    "file": "rxnorm/4f005bc719e69537.json",
+    "sha256": "1c0d090e15fae0b8acbb7ece966ad8dfde6fcbd64cb607997bb5b5ae43563d75"
+   },
+   "related:11170:BN": {
+    "file": "rxnorm/b99bda591a3be63b.json",
+    "sha256": "286ed875c0b64ae70881f87eb5af910cb8c45a09b1c2f0d4d7fefdc02954fd64"
+   },
+   "names:11170": {
+    "file": "rxnorm/79bcc2f0435cd4af.json",
+    "sha256": "3725fb7d5b15ef4632f4086cd1eb20d041d970e32d43c80cfbcf31f577dd6e94"
+   },
+   "rxcui:furosemide": {
+    "file": "rxnorm/316ee26c31bc7092.json",
+    "sha256": "84b57b00dadbe65b5db2b6f4911bf4eba3cda916a7506e7ac885359863fe8006"
+   },
+   "related:4603:BN": {
+    "file": "rxnorm/bf9d0d552f397f30.json",
+    "sha256": "890274765e7cee70e4408e70fb6f2a8918adfff67df424584c822e24c1e869b0"
+   },
+   "names:4603": {
+    "file": "rxnorm/6164d0717099c059.json",
+    "sha256": "20d0e5d4ac3887d17024092b4aa550b42e323fb48533e08a643fa5cd2f71c62f"
+   },
+   "rxcui:torsemide": {
+    "file": "rxnorm/af794ecf98b18ae9.json",
+    "sha256": "869ca15a20a28c022744534266716944a8e39829ae465a8c15864a92baa7b865"
+   },
+   "related:38413:BN": {
+    "file": "rxnorm/23e4b4ea613b9732.json",
+    "sha256": "59775d950cdb71d284835a5abcf5c1574c1cbf9d6a4ededff612eeb235c09572"
+   },
+   "names:38413": {
+    "file": "rxnorm/525f002f8fd7e2a3.json",
+    "sha256": "47ed24d24655a3d0783232027bea346f9c89795d6143dc55f4ab9f7650a42dcf"
+   },
+   "rxcui:hydrochlorothiazide": {
+    "file": "rxnorm/cb20fb9502c11830.json",
+    "sha256": "db07b6f3e2a650b7dbdc98595ce3bcd2eef88d98f5d1b9cbd0352f061f593949"
+   },
+   "related:5487:BN": {
+    "file": "rxnorm/b21db6e2830372ea.json",
+    "sha256": "1a3a6ec9f33034219195936503f6cc774c4ae95138e337c909cc9b10e8dcee1d"
+   },
+   "names:5487": {
+    "file": "rxnorm/cf6bf5ed98dc17f9.json",
+    "sha256": "84b53ec2e6d08dfd0d47f1acb6639ddbd001610948c88941d082c0226a8fffb4"
+   },
+   "rxcui:chlorthalidone": {
+    "file": "rxnorm/8c16801d5ad7d520.json",
+    "sha256": "938e85d5951aaf3ad63a480d6261685060b3e158f8b03e7fc5013f86c8c50340"
+   },
+   "related:2409:BN": {
+    "file": "rxnorm/5de5d6a2532b77ec.json",
+    "sha256": "2f51ddffcb873511f0441ab3822fa4bf354a5b8adbdc27398a8d60fb877f5fdd"
+   },
+   "names:2409": {
+    "file": "rxnorm/2330ccecfe97781e.json",
+    "sha256": "5e0fcbf5b5b7609404308905fccab9b354e0e7a2c58fd14e2aa7126020d70f2d"
+   },
+   "rxcui:spironolactone": {
+    "file": "rxnorm/a36a5697036cba5f.json",
+    "sha256": "ab33ddd925ed7e9cf268b6255bb9d7b16b68313ba2540b30a18aa87d59db2026"
+   },
+   "related:9997:BN": {
+    "file": "rxnorm/cb371bc0bc63bd77.json",
+    "sha256": "69b656defff47b0125a19a1b1d70a5d8dfe0af21214969aec1fbc1261bd90e3a"
+   },
+   "names:9997": {
+    "file": "rxnorm/a65c253afbe9ba78.json",
+    "sha256": "b838b29a5d967e695eed79f2df922b949b91b0a465e59d2337d9a4dccd937913"
+   },
+   "rxcui:eplerenone": {
+    "file": "rxnorm/3a26b89b414082bc.json",
+    "sha256": "b9d29e7744a01c42e3244d3d975ca8db89d91ade22efe27cb936e366f90352f6"
+   },
+   "related:298869:BN": {
+    "file": "rxnorm/3640fbdefe148761.json",
+    "sha256": "3e4e50d3a69f517976492c9e6d19481943d0711e99145ffd0cc75ce3e4bbf15a"
+   },
+   "names:298869": {
+    "file": "rxnorm/0a4dc39f43b9e36a.json",
+    "sha256": "5758381c2ee00de696fec805c1ee04ce540715991145e3004f88432476f8f072"
+   },
+   "rxcui:atorvastatin": {
+    "file": "rxnorm/9f1172636bff5947.json",
+    "sha256": "6d9213215e3ca53478b07c015710b94ccf5f0deda5ec586418bd379185ae10a0"
+   },
+   "related:83367:BN": {
+    "file": "rxnorm/48a1f027bb58354c.json",
+    "sha256": "8840f28358a210f36228f6a3bef2b4d4f3bbdba4c0710ae097882baec9d8ba6b"
+   },
+   "names:83367": {
+    "file": "rxnorm/adce75b91cd0f481.json",
+    "sha256": "8b6082f7c568c1d260184e0b0d27acc05916ff7e4f657e276d405f7990fd5fa2"
+   },
+   "rxcui:simvastatin": {
+    "file": "rxnorm/f4f0da337f9679a0.json",
+    "sha256": "b32d016b13924312e00d05094baa34eea30264514e2a81482c7b951a9d7ccdc1"
+   },
+   "related:36567:BN": {
+    "file": "rxnorm/911c90b64cf8a08e.json",
+    "sha256": "3713560ad7831d1481ab974114b1802d9f2640d99b0074525984f51acab858b1"
+   },
+   "names:36567": {
+    "file": "rxnorm/eeafb116b19a0a88.json",
+    "sha256": "85d17c060800023b00c37d468d1d41ed2e42473368b7572e6e3c4ffeb1dddf6d"
+   },
+   "rxcui:rosuvastatin": {
+    "file": "rxnorm/7c2b3069584fa130.json",
+    "sha256": "41e26a7c6ee2019de8a2348ec773d10a435814f127dc37eaffe1597097289ae1"
+   },
+   "related:301542:BN": {
+    "file": "rxnorm/18cbb3ce71b21948.json",
+    "sha256": "da13ed06786e617595b1598b2b42e4ca6ae1e1d3ae159029353d049771cfc2e6"
+   },
+   "names:301542": {
+    "file": "rxnorm/9fb919be7577a8e2.json",
+    "sha256": "370d0dc4a5a07ff46324f62aa5dd9eff9edbae6d6cd59d393521ef8f071fbe5c"
+   },
+   "rxcui:pravastatin": {
+    "file": "rxnorm/ca5cca01442abb2d.json",
+    "sha256": "1e04b48f787d21b2dcd068be193b522fdf09117179b2b13a6326f17d49ca4d39"
+   },
+   "related:42463:BN": {
+    "file": "rxnorm/08d08f6832b03653.json",
+    "sha256": "e8575cde06ca022a19cb22ce536476f288d3985362e79e5df748a2c8a86acda4"
+   },
+   "names:42463": {
+    "file": "rxnorm/84998dde167e2b20.json",
+    "sha256": "84aea2e3c1826962c31d7d6d7d5c4b832457219c13f565875452b3b42f93010a"
+   },
+   "rxcui:ezetimibe": {
+    "file": "rxnorm/a18d177f04e30f13.json",
+    "sha256": "669e2cdc7ebde770ed718dd16eea45d3aa7584a401172f5e26d59fa63fa72fc9"
+   },
+   "related:341248:BN": {
+    "file": "rxnorm/8544816d7f420d28.json",
+    "sha256": "11c0a35371cf68bf450caedd6f88e77ad36e25b5bf5bfb740544a7d01acdfd8b"
+   },
+   "names:341248": {
+    "file": "rxnorm/e1e0e2fb8aa9c561.json",
+    "sha256": "1c10e6aed5d87b3c8c0a54c6b8c70d3ffe34b73c8dc733ff5ca5c3a7d3a3b51e"
+   },
+   "rxcui:amiodarone": {
+    "file": "rxnorm/ae977b333ff941a4.json",
+    "sha256": "3ceaabd9af02155d7037adf298f94300406ed27df3042f57362082dc2f2d11ea"
+   },
+   "related:703:BN": {
+    "file": "rxnorm/87e546e5317a7ccb.json",
+    "sha256": "897549e272e36e12a0a1da9667addd71cd640ff2280c8517d1c17497e1af00d6"
+   },
+   "names:703": {
+    "file": "rxnorm/a9cf805a6bc38c30.json",
+    "sha256": "209229716b81a09a420c3fd42f42a543961ae35c8bc7168734c6e1e57f4ae1fe"
+   },
+   "rxcui:dronedarone": {
+    "file": "rxnorm/efbb82b80545e4d7.json",
+    "sha256": "b8d3ee700d442714f79de121f2f03d346b3e87211e7d20ac171a6abd095ba738"
+   },
+   "related:233698:BN": {
+    "file": "rxnorm/b752ac0d29141a35.json",
+    "sha256": "46ce3d53c81faaa20493537668b2b9d262fdf650541cd917455f03c572f20376"
+   },
+   "names:233698": {
+    "file": "rxnorm/d4f5a157270953b3.json",
+    "sha256": "8e8b53642405923197c8d77d66734c1b889af143e148c6588f5ed526ff28ac5b"
+   },
+   "rxcui:flecainide": {
+    "file": "rxnorm/6d343136149b4024.json",
+    "sha256": "5e0b3790dd5c7325edc10371486ba516d14347ec9ac829da3b15cfb9175bfc22"
+   },
+   "related:4441:BN": {
+    "file": "rxnorm/75aac17808c55aad.json",
+    "sha256": "8fbc68b2f5fecf33555f1e92e55ad7a6335d26fa15a9fd506105c28078c9abfa"
+   },
+   "names:4441": {
+    "file": "rxnorm/47a3eda0716ecdcf.json",
+    "sha256": "46536db463a07c6f4d95551bfffb37b2389af1cc44a7a9a8d481d19f257cc1bb"
+   },
+   "rxcui:dofetilide": {
+    "file": "rxnorm/e3abadbfabe04dd5.json",
+    "sha256": "9c33b6298d38e9a2147bb2cfb3f909fe817ea7feac9e196b7af02b7688f2a055"
+   },
+   "related:49247:BN": {
+    "file": "rxnorm/02fa72956e645686.json",
+    "sha256": "dd4e641f757ba89ee9abd5eb891c0e9002d1ee22a8fbe59a7c863cf99da5ed57"
+   },
+   "names:49247": {
+    "file": "rxnorm/0881350358d6b080.json",
+    "sha256": "f52de0db35d2a263039043dad117d799c472722ab338d1bf33e288e1ece3aa4f"
+   },
+   "rxcui:digoxin": {
+    "file": "rxnorm/1ece08df99f2f68c.json",
+    "sha256": "a078b1f0df6acbea83b480cff90c4102ae44a96fd7dbaaef06c0b0abd60e5409"
+   },
+   "related:3407:BN": {
+    "file": "rxnorm/3e1d282e266fea79.json",
+    "sha256": "9bf9d6236f9d3fde33f66cf912d454088efde87f7542541b4d3b24eac62cbad0"
+   },
+   "names:3407": {
+    "file": "rxnorm/f0941b0f372e0ed8.json",
+    "sha256": "18d4d39536dd68a0d312b1fc64f62766d95078b0587a42992b598f989cb1b7ec"
+   },
+   "rxcui:nitroglycerin": {
+    "file": "rxnorm/dd12bfcbd200587d.json",
+    "sha256": "8ae264b6834370402d00f2f19d67eb68e1016b16dab853ee60c817f9f25e112a"
+   },
+   "related:4917:BN": {
+    "file": "rxnorm/fbf71ba321e148ad.json",
+    "sha256": "48b54df448d9ab14044e2199e7cdb04fbc37c5a2655de3802110be2965ccbb34"
+   },
+   "names:4917": {
+    "file": "rxnorm/18ec2493406e2cf2.json",
+    "sha256": "63232fb0b7b15e993bfd470f774ef3647fc71b14fad58fa49800828b7ee0cfd4"
+   },
+   "rxcui:isosorbide mononitrate": {
+    "file": "rxnorm/d77f43be03cd71f9.json",
+    "sha256": "a3daacef1c3c0fb84b4a130a3126ed7f997469d1272e5c8415c55a0a59e29a54"
+   },
+   "related:28004:BN": {
+    "file": "rxnorm/d6dfbb87dde21334.json",
+    "sha256": "8fbc68b2f5fecf33555f1e92e55ad7a6335d26fa15a9fd506105c28078c9abfa"
+   },
+   "names:28004": {
+    "file": "rxnorm/8f1ff71d58ae78af.json",
+    "sha256": "1c95155e8b6deb3cfd3f46f5c70f64527bd11d20fa55f8b69f907cd443447a63"
+   },
+   "rxcui:ranolazine": {
+    "file": "rxnorm/f1545c6a6490aba0.json",
+    "sha256": "e6245bb9f909c301cd047747f9fdf40229c03c8a6acb007b94013d7e28557947"
+   },
+   "related:35829:BN": {
+    "file": "rxnorm/7e1356985d5f48de.json",
+    "sha256": "487d236a46064a530ac077b4672654e798f638dee03fd9306e9bf95ebd9f8271"
+   },
+   "names:35829": {
+    "file": "rxnorm/4a8fed9b914fb504.json",
+    "sha256": "4b9c49d6f43ed82a37f70982dc53b37d87501acb528dd2928596fa741a1d6d6c"
+   },
+   "rxcui:dapagliflozin": {
+    "file": "rxnorm/969b170cfb086694.json",
+    "sha256": "3d92792fe01002b7ca186b4c3c3d460543743d8f7af6c21054b8161df751b08d"
+   },
+   "related:1488564:BN": {
+    "file": "rxnorm/dfdaffbb089ef70f.json",
+    "sha256": "fa6b799fae18f80384dee9bb680ba2daead3a21d63dfccaf1ce4f6d51a0ce07f"
+   },
+   "names:1488564": {
+    "file": "rxnorm/df068d04c8b6eb5b.json",
+    "sha256": "4248c361a1ea2441869acb9898592b692c97642415302b070e8f84548dfa2c9a"
+   },
+   "rxcui:empagliflozin": {
+    "file": "rxnorm/6f303baa1ecd7607.json",
+    "sha256": "c9411a7632477d3bdf3b5679cf3594c37ac7c8ccf807769a1d22a59ab126d852"
+   },
+   "related:1545653:BN": {
+    "file": "rxnorm/1478c16e58ee9825.json",
+    "sha256": "8e09593b17cbd6032dda1d0b34e91f5c36862ef9b2d33eebfc9d96a7d69af169"
+   },
+   "names:1545653": {
+    "file": "rxnorm/ec159eba2cfa3952.json",
+    "sha256": "81215dac20442b1d3ee99d2d890206985953da1025ec2fd4d741c11d210ce4dd"
+   },
+   "rxcui:ivabradine": {
+    "file": "rxnorm/7e3042b8cfceba82.json",
+    "sha256": "ebf1398c70d0598decd040a221744ef02b4e45872cfd5ac78901afe383a73f1c"
+   },
+   "related:1649480:BN": {
+    "file": "rxnorm/f31323774488c663.json",
+    "sha256": "b80c7d9eb112ce3f6d053e0c7052a74ed1caf08ed9baf742742b89fd72d5543b"
+   },
+   "names:1649480": {
+    "file": "rxnorm/67f0f58452cf6617.json",
+    "sha256": "26139a67c87946fee08105b654ba5bf198b7ebccb5d9a8bea4b4dadf29782513"
+   },
+   "rxcui:hydralazine": {
+    "file": "rxnorm/846d0f8a9de7457b.json",
+    "sha256": "fac650c93e755720be05e1ff76add08ef39a99151d0f49d7ba86a94bba9de6ab"
+   },
+   "related:5470:BN": {
+    "file": "rxnorm/ca8734713274d191.json",
+    "sha256": "96c29316b01f9fb94aedfa05cfc760b9f23b19db0497a27dcba99e145219ffd7"
+   },
+   "names:5470": {
+    "file": "rxnorm/0771bf9418b97d16.json",
+    "sha256": "73d5a235ddcad439a53b9f5a3d2c304df769c0d675ffbf31c76fec6085ee890a"
+   },
+   "rxcui:metformin": {
+    "file": "rxnorm/d74325567a9f77c3.json",
+    "sha256": "ad160c1b563717e9c52cab033911e4f175cbd0ffbc892f485ac488d346ee86ce"
+   },
+   "related:6809:BN": {
+    "file": "rxnorm/4ce3a69945563b70.json",
+    "sha256": "56477ed1d66e9c87daa265360a38253f72bf77e9b553c695ce28c83acddce657"
+   },
+   "names:6809": {
+    "file": "rxnorm/77cddfbc62416b11.json",
+    "sha256": "14d89572be866df5558752ddc604908218037885a980f353e9e51a24d2f2fa77"
+   },
+   "rxcui:insulin isophane": {
+    "file": "rxnorm/4057865f310a10bf.json",
+    "sha256": "304a45c964a0e22a6ac96527984629b92295f90f4781b07a72a9bf2b97f35cf2"
+   },
+   "related:1605101:BN": {
+    "file": "rxnorm/94eef76f3a3aca39.json",
+    "sha256": "336b604e26d80a2eb0046d67422fdf11d3e81e82e43d3539e5add29a78a63e9e"
+   },
+   "names:1605101": {
+    "file": "rxnorm/41ec513e6a0547f4.json",
+    "sha256": "174c39ad1dfd7253ddddf30f3ace781adc7fa7eb02cb10fdca64bb2d1dbc0a46"
+   },
+   "rxcui:potassium chloride": {
+    "file": "rxnorm/e5cf737ae16251b6.json",
+    "sha256": "0345f460733258199b0ad12122598087936d3de8d32780b6db4357fa2e2e797f"
+   },
+   "related:8591:BN": {
+    "file": "rxnorm/697bf01a2ab9a3d5.json",
+    "sha256": "e5152ec869de060205d7fc05c8df378eb60b3e3696281f267ffcf7a2f65c3940"
+   },
+   "names:8591": {
+    "file": "rxnorm/a1b821e2b15629ae.json",
+    "sha256": "deed2ef7be1f1ab4df85d2bdb9cdeef0e2934865189e468694e3530dcbba69f9"
+   },
+   "rxcui:ibuprofen": {
+    "file": "rxnorm/8247182b4405ae71.json",
+    "sha256": "8cd9603cdb4de13529d38cde10da6a9c72769eec45ef0392ee9a185bbfdf15a4"
+   },
+   "related:5640:BN": {
+    "file": "rxnorm/2d7e4fb15a7ca27b.json",
+    "sha256": "970c85904facbb8c343acea2cc7c89b401e94a2efa5701b80aa9a77e3d3243e2"
+   },
+   "names:5640": {
+    "file": "rxnorm/a1dea1d8a91fb63d.json",
+    "sha256": "256f973ae858039fc0fa7f610748d29147afdaa65fa76d86aa7fec5ba9c48863"
+   },
+   "rxcui:naproxen": {
+    "file": "rxnorm/75976027827e208d.json",
+    "sha256": "ebf93e812c35442b627dd65d4f70fe9e0a5b472d9c7cab55f7eb7cc5dc3a0df1"
+   },
+   "related:7258:BN": {
+    "file": "rxnorm/9dd92a92e2b49d65.json",
+    "sha256": "7359f34e8162dbe1d11c2f0d536ca67171d5a581c0f00d178dd75a5f3e694594"
+   },
+   "names:7258": {
+    "file": "rxnorm/176e8943b52c3e98.json",
+    "sha256": "eb9e03681d451681a5d78426cd9cb7270ca49415d4d1812270257c210c366838"
+   },
+   "rxcui:celecoxib": {
+    "file": "rxnorm/2d47037ec6688a85.json",
+    "sha256": "2c3767278959f7247ef934417d8787c0391cd13f535df06bbbff917e290f72fb"
+   },
+   "related:140587:BN": {
+    "file": "rxnorm/2a57e2a0b6c39d32.json",
+    "sha256": "cde719d7f6b22b0693f0e40f6182918397255be0d3b148a1f9a57eb5cfd1b4fa"
+   },
+   "names:140587": {
+    "file": "rxnorm/77d90bc1da40fda0.json",
+    "sha256": "51c6c29539a2ce35088cf1262d94be069ba5ee3e872181fc3d0a5cb1219bca92"
+   },
+   "rxcui:clarithromycin": {
+    "file": "rxnorm/ad4b25b206ba0e3d.json",
+    "sha256": "aa4632527875ae409cad18761a1264df098814182d030fe973c261cf064334b1"
+   },
+   "related:21212:BN": {
+    "file": "rxnorm/20799e192cb90c92.json",
+    "sha256": "c3fb1f90e18f3675ff22fbd6b120ad442c4db7866ac66c9459e8567f46f73424"
+   },
+   "names:21212": {
+    "file": "rxnorm/c0782f8c032252fc.json",
+    "sha256": "bd4d45ec5c8ebb9fdd1dd449c3c121a2c5440196cfecf7801406d24f8b0ecb3d"
+   },
+   "rxcui:erythromycin": {
+    "file": "rxnorm/f77cf9105c7e799f.json",
+    "sha256": "fe1764b9cf70f17f6d8eede14869ce17768b139b736f66457118e727d3fa9ef8"
+   },
+   "related:4053:BN": {
+    "file": "rxnorm/e3bd25957953601b.json",
+    "sha256": "a9b127b55e15ece49fd124c09e8bff9eb894ead3c91c9a69c686e561213dc5fa"
+   },
+   "names:4053": {
+    "file": "rxnorm/8be6bfb4baa6bf8c.json",
+    "sha256": "0be58b64aab7a0d878cec8ccc5fafe9c0f7ed92d667522e9da31599ce25cb9f0"
+   },
+   "rxcui:azithromycin": {
+    "file": "rxnorm/08c65a824e06f7fb.json",
+    "sha256": "ef8711e62781db914dc748e061ba9059bf5317abe4a27b2b4c0f58f41f7f4600"
+   },
+   "related:18631:BN": {
+    "file": "rxnorm/5553ee31ac0ebff7.json",
+    "sha256": "d2e3c258ef5a0203c16c3ad7bfae3075e0ed018399808e04d594b86a80559057"
+   },
+   "names:18631": {
+    "file": "rxnorm/b9c2de9616290814.json",
+    "sha256": "f4a1c219605ec5e702e8071c0f3df441e5ea39e14b31133e3c21260d15195dc3"
+   },
+   "rxcui:ketoconazole": {
+    "file": "rxnorm/3dadea5759d26b58.json",
+    "sha256": "78d6e9f2f4daf311e436203096154ccb1f5d73dd881d1c5029d8dda64248a2c0"
+   },
+   "related:6135:BN": {
+    "file": "rxnorm/25b570d2da5015a2.json",
+    "sha256": "d6700656ab226165a9cdbba1f9c5c77cc19c99353aedd2ce31984f30d68a5cbb"
+   },
+   "names:6135": {
+    "file": "rxnorm/c56a017c7c09ba10.json",
+    "sha256": "02d4712264aa11eb99dc92aa67dfa0d45f24ea1fd77145165ae753ea84f6ea10"
+   },
+   "rxcui:itraconazole": {
+    "file": "rxnorm/a74a045a8e55c525.json",
+    "sha256": "3c6dcbc9a3c3f3066858e790e1fc45d0418dcbbdd370b39cd90bb78a31979303"
+   },
+   "related:28031:BN": {
+    "file": "rxnorm/234730a7a0e47987.json",
+    "sha256": "8dc6605fbfe58ced2fbff5efcd962b59ab967b1af497d4a8485158d031690650"
+   },
+   "names:28031": {
+    "file": "rxnorm/3d56c6cd98d78033.json",
+    "sha256": "74778cbf9bb14e944ed07e58dc5272dbfd30fba216a87b41edf0118ca11866ef"
+   },
+   "rxcui:fluconazole": {
+    "file": "rxnorm/c0c7beb708126461.json",
+    "sha256": "613592116a78cb88eb2c85e7b2aec0f158f71535c5cbbbdeb0b95a0cb3383536"
+   },
+   "related:4450:BN": {
+    "file": "rxnorm/734cb0f05f2a64bb.json",
+    "sha256": "50542462fb257c5cf04d478bd08b5ab72f12b8ac968fcf59dc42276f41854203"
+   },
+   "names:4450": {
+    "file": "rxnorm/42d0f4e055013813.json",
+    "sha256": "9691c564e07871ebb61672c7182803014ad52e534b032744186a5a84c1ade99f"
+   },
+   "rxcui:sildenafil": {
+    "file": "rxnorm/f1cef679f6a81112.json",
+    "sha256": "5876c69ad4da69aee8a0779f0794ef426b3dc5cb1c8d78c231bf96f02119ff5d"
+   },
+   "related:136411:BN": {
+    "file": "rxnorm/614d84887a823456.json",
+    "sha256": "4fbbf90edd393efc2857bb36310378066cc6408ca5c6da6068c26c2ce436bd21"
+   },
+   "names:136411": {
+    "file": "rxnorm/8dc0cf118a425a94.json",
+    "sha256": "4aef5c073ebb05172dd3399092d6cc1f185687189891ae2f56331c1e80724fb9"
+   },
+   "rxcui:tadalafil": {
+    "file": "rxnorm/8f01ce9588a024be.json",
+    "sha256": "468a49439531e30f4f7c20c8195f99136c3f97374f7623446692664933917a73"
+   },
+   "related:358263:BN": {
+    "file": "rxnorm/a3916332212f2c2e.json",
+    "sha256": "44928c4b66a67958f9d546bf6c812146c3ec3431707b4744619568d890ddff44"
+   },
+   "names:358263": {
+    "file": "rxnorm/8e72fb3878656028.json",
+    "sha256": "51c54e2528ae6f2a2b3cb605f7416a0f0dfe3aacf52787c42118a99bcb98cec9"
+   },
+   "rxcui:omeprazole": {
+    "file": "rxnorm/6ec4fb9e245a61b2.json",
+    "sha256": "77b823c2042c7b8765708349bd5136136a461a5211fbafd488a0e3dfab99ae8b"
+   },
+   "related:7646:BN": {
+    "file": "rxnorm/1ba1068f6f99a612.json",
+    "sha256": "e0f792f67a93894e13a2b8d65ffc1e6af4e52e84ade4d607653b333a8ce1cfbd"
+   },
+   "names:7646": {
+    "file": "rxnorm/2822c98ebe4ce44c.json",
+    "sha256": "30f739e29d88b01f52ba9183d75b0bf3b6d74f3e758b6fafe2c6cfd4948e0e0f"
+   },
+   "rxcui:acetaminophen": {
+    "file": "rxnorm/b9f45f868086e1a8.json",
+    "sha256": "4fcb2dfd57a601fca2fbd0b332384016341fe7f3f273144cff106e0db17baf11"
+   },
+   "related:161:BN": {
+    "file": "rxnorm/78367ccffe12bdf1.json",
+    "sha256": "ae90b6fbf814418c4bc780e54aa6f9b8b8cf5a27cdc53c70c22466b1d01009ee"
+   },
+   "names:161": {
+    "file": "rxnorm/966cd5e18ea26dec.json",
+    "sha256": "704dfb66d2f0fb47739a6d80fc0e9ee916283cc08d08ec7b47d4208b7e32de7b"
+   },
+   "version": {
+    "file": "rxnorm/c692273deb2772da.json",
+    "sha256": "92c0ec3e3b5c4b447bfd949c89de218d0bdc2463d6592718bde678a24d838bd2"
+   }
+  },
+  "medrt": {
+   "classes:11289": {
+    "file": "medrt/0fc1a5ee2e6dda46.json",
+    "sha256": "523e7ae599fae5f806c86b6cc794e8c818c8ec70014a88ea38259c006a0f6fa7"
+   },
+   "classes:1364430": {
+    "file": "medrt/743c2529ecf984ab.json",
+    "sha256": "52da0ab43e5b7dfe96726a1fcc24d608242d0dda70179cc3a1297b38933538b0"
+   },
+   "classes:1114195": {
+    "file": "medrt/c6239264d66edce4.json",
+    "sha256": "1eb959db9ed83610e14b8ce515c89a801cda57e6dc817e287cdd50c04cec66f3"
+   },
+   "classes:1546356": {
+    "file": "medrt/a692460290774f68.json",
+    "sha256": "2a28b4c053efb7628bd116a06af25388e467dac594a6106ec8df4ee24c62662c"
+   },
+   "classes:67108": {
+    "file": "medrt/ee62495890389e65.json",
+    "sha256": "4d44c2acde6f7fc05d63e8eab8d44cc3bef1d340d164873aaaf725dd4aadd3df"
+   },
+   "classes:235473": {
+    "file": "medrt/571451d18a10525c.json",
+    "sha256": "91c559a1a8f663f23e0f24ef1851c5ba5cf0e0b86aa7e7f9df3f542c96c09d63"
+   },
+   "classes:1191": {
+    "file": "medrt/8fc8af97ab584ed1.json",
+    "sha256": "b007e75556d9327d902075fbc2eaeedda2ac32e5995b051a1942e2c301f07e67"
+   },
+   "classes:32968": {
+    "file": "medrt/340ecf127eadd9b6.json",
+    "sha256": "94005d9e3782375b11f5c1a6133ab6ddc55acb5964c51cca1ac6b3907ea19c6c"
+   },
+   "classes:613391": {
+    "file": "medrt/369aabecf044e9f6.json",
+    "sha256": "45f136f4f3c15327e13b6264034f8a2c6c46db202acb5f2c430aa544490062a5"
+   },
+   "classes:1116632": {
+    "file": "medrt/d913e4c757aaac8b.json",
+    "sha256": "536fc74caa0918006a1f30d4023d97c76200c6513a70fba0e8eeeafc46dc5a5f"
+   },
+   "classes:6918": {
+    "file": "medrt/d2c76e7a8a6e331e.json",
+    "sha256": "2757b89318d358bd8ee75856caa4099286d79da0db71ac872c1b0dac735a1329"
+   },
+   "classes:20352": {
+    "file": "medrt/e4ec6f296876fe76.json",
+    "sha256": "12037e11c0f4d754f23690ccdce307f0865d7ae8ec6c9a90279fa780621ff666"
+   },
+   "classes:19484": {
+    "file": "medrt/b4d118868520fceb.json",
+    "sha256": "f8481ba70cb2079651e94a044d6ab510eff9fe9712b22c3ea1602b2d5190e1d7"
+   },
+   "classes:1202": {
+    "file": "medrt/b650050a1feab5c8.json",
+    "sha256": "9b49190622e003a9d60f513a891683a8a9981a88170de8eaf2fc0e7cd7783a87"
+   },
+   "classes:8787": {
+    "file": "medrt/7e4bc06f6685e981.json",
+    "sha256": "9391164171a707541f662cee7339f307a64f2c7d172545c058cf8e2744d47516"
+   },
+   "classes:6185": {
+    "file": "medrt/fd23e0af3ce2786c.json",
+    "sha256": "cc936d774a43f7115a22e4d4b3ef4704ca9147966eca0fda018d80648109cecb"
+   },
+   "classes:9947": {
+    "file": "medrt/c3b5a77379ccdf54.json",
+    "sha256": "88807e3314f970f2ba7567422e88c0f6fa643a3d95185e8b3435681d054fa52f"
+   },
+   "classes:29046": {
+    "file": "medrt/aadb3affc5f82e78.json",
+    "sha256": "0386d97b03006fb8a637f5bc8433eb54f8087264057252e87a2bff7f3d7d62ed"
+   },
+   "classes:3827": {
+    "file": "medrt/1eeea181eecffec9.json",
+    "sha256": "6799227af1a438d63122051a5f5a6e1a99cf71de419974f6bfa0cda362cd3bb5"
+   },
+   "classes:35296": {
+    "file": "medrt/dda031d1bb582bb4.json",
+    "sha256": "ec08065cbda573598aa1b8118c0d44e48f73747833c58ee1f6f8d9ad4e63b592"
+   },
+   "classes:52175": {
+    "file": "medrt/478d1b55513cc23d.json",
+    "sha256": "9e525f0644b318bff48ac3232c7e29e2f4ae07efd03145f46b19e52457c3c3ee"
+   },
+   "classes:69749": {
+    "file": "medrt/2ce18553dbf483cc.json",
+    "sha256": "a9b2b1adbd2852a51dd2df8993638c7559bdde5d73ad87e66b0edc7981e5a51c"
+   },
+   "classes:1656328": {
+    "file": "medrt/69cc4c9b6294e31f.json",
+    "sha256": "6f2d96a5dcf47128317885d920a10406764d517466c5acbae891d7c01a633ef5"
+   },
+   "classes:17767": {
+    "file": "medrt/87c097db8dc2ba21.json",
+    "sha256": "acab55eb228f0c0b9e0373411c9c1b38571226658724a2875cbddff023662b71"
+   },
+   "classes:3443": {
+    "file": "medrt/cede95432f99140b.json",
+    "sha256": "9de51f164fee9005d3f58274e31f904d59aede9744974aa8275387e48883643c"
+   },
+   "classes:11170": {
+    "file": "medrt/e786fa479413ec8b.json",
+    "sha256": "5d8ac185258e19f6ef22e4711c26cccf092e40c7c4edbfbfe9836021354eac21"
+   },
+   "classes:4603": {
+    "file": "medrt/9ad1deb0b9b7320f.json",
+    "sha256": "bb69cc5e42f51064467a31b3e87469e26b39f746ba90ecff5bfa3463f54ac8cf"
+   },
+   "classes:38413": {
+    "file": "medrt/d81c821d98063cb2.json",
+    "sha256": "222e4f642f290b76f16ce8965d1e436209b91723224c711643ab89086d13871a"
+   },
+   "classes:5487": {
+    "file": "medrt/b1347aac04d0a0a3.json",
+    "sha256": "f8f5b8a43f5565863c23e68b858dff01780aeaec4693f982b425eedfe490e407"
+   },
+   "classes:2409": {
+    "file": "medrt/f752ad063d1f41af.json",
+    "sha256": "5372a4e47146259dbc619384dfa5ccf9f55bbfbcbcc98ce88e6008dffc5850d7"
+   },
+   "classes:9997": {
+    "file": "medrt/9013ff97150942a8.json",
+    "sha256": "0c781bf0cff42d98ed7930968bafcfc0cff0493b8a54eaa591c07b0d60aa4849"
+   },
+   "classes:298869": {
+    "file": "medrt/bb8ce1e4f461b372.json",
+    "sha256": "d345bb4e3a317b71572b62a258cb563cc3669ca0fe67b6473d9a5f50dc73562f"
+   },
+   "classes:83367": {
+    "file": "medrt/f8e53d9493bfd6d8.json",
+    "sha256": "76537c7c17afc929ff023235594d05fd11a28bd8c655e364345eb5d6a8aab17f"
+   },
+   "classes:36567": {
+    "file": "medrt/6c17f4f7f78a2bd7.json",
+    "sha256": "b0ab1189cbf82157c3db4abf689e21ad2e6f5568b44e41c5ecadda4b228db019"
+   },
+   "classes:301542": {
+    "file": "medrt/3855a85e3c35d2be.json",
+    "sha256": "c7e1fc0f41926e279388410b7209025bd54f026b7fe03901860337d8998f8201"
+   },
+   "classes:42463": {
+    "file": "medrt/05d9654d250cd50a.json",
+    "sha256": "958549e814c1b59795d1f393fa26e158515fcda7c07f8eaefcd8789da20cf263"
+   },
+   "classes:341248": {
+    "file": "medrt/1169d6cd7e3e7726.json",
+    "sha256": "755657708f7411063fa9d5efe809043b142df80422bde9f327a84c2e90feb44b"
+   },
+   "classes:703": {
+    "file": "medrt/f0de41d54e7faef6.json",
+    "sha256": "f3a7ae7ca064b80941beca35640a0f19f87ffa886b42abdacbdd33c9a4fa74c6"
+   },
+   "classes:233698": {
+    "file": "medrt/637116b29ca44573.json",
+    "sha256": "14f74c5dc18c39fe1ac6a93bc19f3140fb81ee7d1f7b0eff8ab53a49a2d38a82"
+   },
+   "classes:4441": {
+    "file": "medrt/c3e93c1735b5f834.json",
+    "sha256": "9fa8615cb836ccd41cd7f6f738e1aa27977c32ce4f93307ab4b9c1b8152d2a8e"
+   },
+   "classes:49247": {
+    "file": "medrt/7b7e1e9acd63ab6b.json",
+    "sha256": "64fd73b64e6843db99d15db8b2ae403ab08ce476a8fa6e85b863f9e463063eef"
+   },
+   "classes:3407": {
+    "file": "medrt/1ae516d192743f9e.json",
+    "sha256": "db6782fa4fce408391acf170251dd9a26039b6f8ddfe4e8418f643351ecfdfcb"
+   },
+   "classes:4917": {
+    "file": "medrt/41ea81dc369c38cf.json",
+    "sha256": "566454a55e93bf86acf02ac32d8cf75e96539e8c8444c105be867c48df05b6c2"
+   },
+   "classes:28004": {
+    "file": "medrt/fba6cd2b61cb4b13.json",
+    "sha256": "6d2435008bbc3e638ed5a3ad10298e1db5a858042356111ae01e357adce8c5ff"
+   },
+   "classes:35829": {
+    "file": "medrt/d8fdf4b310e08a5f.json",
+    "sha256": "568fed4240127a02c5ce3c303b026add357cb2c0eac77a98911a16bd84e4118d"
+   },
+   "classes:1488564": {
+    "file": "medrt/2dabb8b826ef1748.json",
+    "sha256": "e6699830c3a64254eab0b6d94bd43509697493788aeee1e8e6e7246dae8ae4b1"
+   },
+   "classes:1545653": {
+    "file": "medrt/023a183758caa8c9.json",
+    "sha256": "0772b4c322cdc3ffdd6c1c8415defa8930671183a8ee6edd5a829c14cbd79bde"
+   },
+   "classes:1649480": {
+    "file": "medrt/0ae27466eb222c2e.json",
+    "sha256": "8eb091a8c0322babcc54d00c5032f4d5e9bde74e76ced0738298203b780565fd"
+   },
+   "classes:5470": {
+    "file": "medrt/e18debc5c1701172.json",
+    "sha256": "3e81779403821972c1687566c5dee9f34f80dbb981840215fe51563b77b537b1"
+   },
+   "classes:6809": {
+    "file": "medrt/931ca2e557a0b1b5.json",
+    "sha256": "54aa7ec55346e8be212ff7fc797149a99e8e913d4e67dc95c92f62159a4282bf"
+   },
+   "classes:1605101": {
+    "file": "medrt/b9bc19b377c5d4fb.json",
+    "sha256": "12dabfa0259301bda4c04460c4d4c9a4c372ec08cb1852a7613db0101db92ed0"
+   },
+   "classes:8591": {
+    "file": "medrt/e22b3a9485481d6e.json",
+    "sha256": "f1be57be40e52968619d1364978f74b67c17072df3ddacd9af23c6a9cac601f3"
+   },
+   "classes:5640": {
+    "file": "medrt/358812a6efc544b6.json",
+    "sha256": "a3bde30f6f9fe32a876ae1bb75bdfac07b4b62efdf580da062047f6c346e9f21"
+   },
+   "classes:7258": {
+    "file": "medrt/94d7c0fbb05809d6.json",
+    "sha256": "dd28682b86a5af64f476c791926a280893ece18ed0dc4c6be6e94af08a5c0080"
+   },
+   "classes:140587": {
+    "file": "medrt/5d524fa1bbd4d101.json",
+    "sha256": "9b2b6729f14eb08c29bf1629acd458831472cb75fef3ce9164b01c010f694b1a"
+   },
+   "classes:21212": {
+    "file": "medrt/d82c188133c7c81b.json",
+    "sha256": "183c2bec29dab7407a4ca0c5fcaf7ac940641b8ef9ee43b266fe4418b4b39083"
+   },
+   "classes:4053": {
+    "file": "medrt/bf36bdbef8264eb9.json",
+    "sha256": "e189158ae4ed4eb9a4e6a9e5f3f2278368c886ddc5def4ab33621d31b31cdba2"
+   },
+   "classes:18631": {
+    "file": "medrt/8b42cf7df48d36ad.json",
+    "sha256": "cf18786b0235d01ec479eb98f3299b2c0ea1414c0248165861634a4e8699b9a3"
+   },
+   "classes:6135": {
+    "file": "medrt/2f41f8cf7ca05c54.json",
+    "sha256": "a57b61ec5a8b704461d1dc36ee120a7b8d04dbfd9b450975a0978fcee80413b4"
+   },
+   "classes:28031": {
+    "file": "medrt/d653614c0e2ca5ce.json",
+    "sha256": "d0eb1c419c6351aac766decb8ac2fc0e8b1f371c91d6e376158b3e21cdf0bf64"
+   },
+   "classes:4450": {
+    "file": "medrt/54dbcbb08398a965.json",
+    "sha256": "e3d5a9e73bd290bce9a6a869375b63d1b65ca8ece136d7b01307360c9224abd1"
+   },
+   "classes:136411": {
+    "file": "medrt/7bfeb54e90061e6d.json",
+    "sha256": "cb9abed14396f72237ea29c5a104939636f88d7d4c646c9918e4c51baa45c1eb"
+   },
+   "classes:358263": {
+    "file": "medrt/cff93bc116aee117.json",
+    "sha256": "f64f6ec290f49ee857426c520ebf445ce930b55eb1bb4406bf8914af7f89c687"
+   },
+   "classes:7646": {
+    "file": "medrt/f77ae422779f6fb7.json",
+    "sha256": "d362be57a104fca0d6a9add3660916016106b57ac7840da1adae0881190d1297"
+   },
+   "classes:161": {
+    "file": "medrt/e5f84ffd7ffc5f12.json",
+    "sha256": "134b3d26ebb6fdcd7a0b308d4c0edd616f55fb7f0d12760816db89f43b730495"
+   }
+  },
+  "fdaspl_epc": {
+   "classes:11289": {
+    "file": "fdaspl_epc/0fc1a5ee2e6dda46.json",
+    "sha256": "6ee2a506f6bc16921e67658fddfd648311822b69293c1a0ed65c3c0ea4c58a5c"
+   },
+   "classes:1364430": {
+    "file": "fdaspl_epc/743c2529ecf984ab.json",
+    "sha256": "ac4b01115cb880afb3817df163fcd37954653a75d05655d9ec4f85c0cb4ab4ae"
+   },
+   "classes:1114195": {
+    "file": "fdaspl_epc/c6239264d66edce4.json",
+    "sha256": "88a4535d9d40cee0a67a796c28b4aa59245d7cdd63252c617000a0183c187254"
+   },
+   "classes:1546356": {
+    "file": "fdaspl_epc/a692460290774f68.json",
+    "sha256": "d232c180aeac30aabbea6e747a71e8a848261d235e50bc6a7a79e5241819550d"
+   },
+   "classes:67108": {
+    "file": "fdaspl_epc/ee62495890389e65.json",
+    "sha256": "162cd042d4c28ede5cb00e7aa678acf7f7ddae4f96e263c9f327b4ebc9f88398"
+   },
+   "classes:235473": {
+    "file": "fdaspl_epc/571451d18a10525c.json",
+    "sha256": "1b728eb1e0519eb6e5d084719929df238278722ce31ac82b77689fdcd8455cf7"
+   },
+   "classes:1191": {
+    "file": "fdaspl_epc/8fc8af97ab584ed1.json",
+    "sha256": "fc8c6baa067ee4b9aada4b9d4e7cb3c48360ab1ce7c8e3b044b0f5843be4bdcc"
+   },
+   "classes:32968": {
+    "file": "fdaspl_epc/340ecf127eadd9b6.json",
+    "sha256": "d1e02ee1fa542ddca22c2fa6e5466c9acf58d4d292e9a749a3a8fefbcf016378"
+   },
+   "classes:613391": {
+    "file": "fdaspl_epc/369aabecf044e9f6.json",
+    "sha256": "b30ee04e4a8eddb9eec934bdf83d618121e9372488b1620a94fe06006105f4f2"
+   },
+   "classes:1116632": {
+    "file": "fdaspl_epc/d913e4c757aaac8b.json",
+    "sha256": "c491829d03d3416f9291a2ad76a7d03712a29ddfd1ce3699d804f37f944a9eeb"
+   },
+   "classes:6918": {
+    "file": "fdaspl_epc/d2c76e7a8a6e331e.json",
+    "sha256": "cddf0c9d61de428450e8b1e250be9205b74831cf75a72de4a161b63d487bfcfc"
+   },
+   "classes:20352": {
+    "file": "fdaspl_epc/e4ec6f296876fe76.json",
+    "sha256": "716cc97fc90f882564854084167cb6f1e5e4315769cbc43cd58bc3ff11f4734c"
+   },
+   "classes:19484": {
+    "file": "fdaspl_epc/b4d118868520fceb.json",
+    "sha256": "25ba8ed6dd0bd328db513b69d03abe84ee2482f84034cd89ef5be8e6b0ee47b2"
+   },
+   "classes:1202": {
+    "file": "fdaspl_epc/b650050a1feab5c8.json",
+    "sha256": "c5777949500d44cd9817228ae524c7cb5012513b0473b544754899549e43547a"
+   },
+   "classes:8787": {
+    "file": "fdaspl_epc/7e4bc06f6685e981.json",
+    "sha256": "1de01ba464a1451cb67c02da67d9ca97ca734837e0df8dd18236ef7af5b3b149"
+   },
+   "classes:6185": {
+    "file": "fdaspl_epc/fd23e0af3ce2786c.json",
+    "sha256": "df094a40cf93a21a13bfced12c9505f763ee76f113e857c69b726090841e3749"
+   },
+   "classes:9947": {
+    "file": "fdaspl_epc/c3b5a77379ccdf54.json",
+    "sha256": "a5ee31902bdbc7d2cd2ad45db07f0f9900f0de3e262a7d0460dac391c08b6104"
+   },
+   "classes:29046": {
+    "file": "fdaspl_epc/aadb3affc5f82e78.json",
+    "sha256": "7e7a078c76e0cea7551defb99bd69def90bd6961e9f118211001bc5502afff50"
+   },
+   "classes:3827": {
+    "file": "fdaspl_epc/1eeea181eecffec9.json",
+    "sha256": "cf9325c1e7f2e0a1bd2635af51413de78be9e2afc3c499dd813469d8fcf5e64e"
+   },
+   "classes:35296": {
+    "file": "fdaspl_epc/dda031d1bb582bb4.json",
+    "sha256": "ee5bd13dfcb80c02db02895570b68e6981581b0bf03094bba58771f6baf5c480"
+   },
+   "classes:52175": {
+    "file": "fdaspl_epc/478d1b55513cc23d.json",
+    "sha256": "11d9c68d8903d614dbe9efcd18ee140d015661ca888b63d768f2c0753e4e7b1e"
+   },
+   "classes:69749": {
+    "file": "fdaspl_epc/2ce18553dbf483cc.json",
+    "sha256": "c43146c65054ea3c090150dd6fcb261959eb528b79ce3b7eacd2e6370145601b"
+   },
+   "classes:1656328": {
+    "file": "fdaspl_epc/69cc4c9b6294e31f.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+   },
+   "classes:17767": {
+    "file": "fdaspl_epc/87c097db8dc2ba21.json",
+    "sha256": "1ba7f8f7b0dcd45bc5d7ba6dbc4858211f415a997c5df34d6eac4f52891e3d52"
+   },
+   "classes:3443": {
+    "file": "fdaspl_epc/cede95432f99140b.json",
+    "sha256": "95302b9e175cb3d3e6a4472c676d58d8b5b1becf02748b73e77b2b9997534326"
+   },
+   "classes:11170": {
+    "file": "fdaspl_epc/e786fa479413ec8b.json",
+    "sha256": "dfcbd64560250a8e6919f0be776d6c686ca0281430e2da764a8483d7c4b2d2bf"
+   },
+   "classes:4603": {
+    "file": "fdaspl_epc/9ad1deb0b9b7320f.json",
+    "sha256": "a76f15050d332a4a2214b40e8d82abbc201d129e11e6a51db3c5a7f225548a3e"
+   },
+   "classes:38413": {
+    "file": "fdaspl_epc/d81c821d98063cb2.json",
+    "sha256": "3644f40e2b4f6976770ad0b7ad0c841a2fbc4a43008c2e9641d28664320aaa38"
+   },
+   "classes:5487": {
+    "file": "fdaspl_epc/b1347aac04d0a0a3.json",
+    "sha256": "6622915098cc14bdf805c96ebd2e56e7b66f1cb5713b0d862be9abc38d0ae5d0"
+   },
+   "classes:2409": {
+    "file": "fdaspl_epc/f752ad063d1f41af.json",
+    "sha256": "91933a4ee4db7364082fdb4d9b822a0aea0721334638e488b8ed733a84b74ad6"
+   },
+   "classes:9997": {
+    "file": "fdaspl_epc/9013ff97150942a8.json",
+    "sha256": "4937a262671e379a91385044a347dce9032fe7a68d06f23adcd12fac86631dfe"
+   },
+   "classes:298869": {
+    "file": "fdaspl_epc/bb8ce1e4f461b372.json",
+    "sha256": "147129338db4181ef2d9a003c5a99465bb7ed2e02fa97b56cdad36655107e3c2"
+   },
+   "classes:83367": {
+    "file": "fdaspl_epc/f8e53d9493bfd6d8.json",
+    "sha256": "cc1a6d276063b42fc724ae46c8157a482aa0887f8ebb6781822b17b860d6f912"
+   },
+   "classes:36567": {
+    "file": "fdaspl_epc/6c17f4f7f78a2bd7.json",
+    "sha256": "3212ed3419ddd172b7fec650accc1085514bc7a311593d36712ee9b00216d06d"
+   },
+   "classes:301542": {
+    "file": "fdaspl_epc/3855a85e3c35d2be.json",
+    "sha256": "8670e160c2c0d2835d9f4cf4f76b29bef230c73d7d50380510103f519052c4d1"
+   },
+   "classes:42463": {
+    "file": "fdaspl_epc/05d9654d250cd50a.json",
+    "sha256": "296ddb29e8b71beb2a0b79091a4b12c5d9c5a0d7e3ee3ef014298dae80bb1a70"
+   },
+   "classes:341248": {
+    "file": "fdaspl_epc/1169d6cd7e3e7726.json",
+    "sha256": "8dd8f9379c56ed76b74452dfc1ad28fdb6b39fe59d888c190d4ddbb67c861e74"
+   },
+   "classes:703": {
+    "file": "fdaspl_epc/f0de41d54e7faef6.json",
+    "sha256": "14cd8425bcf878c94614bdf7846c91fd4b2ee4e00c6905b5c0547250a1d43a78"
+   },
+   "classes:233698": {
+    "file": "fdaspl_epc/637116b29ca44573.json",
+    "sha256": "4281864492d9dec9d5df2e2beaca0c59da2b8924099f7f244c63ba3acc33a3a5"
+   },
+   "classes:4441": {
+    "file": "fdaspl_epc/c3e93c1735b5f834.json",
+    "sha256": "c5ceef4b4911003ce141912734384e94d0f296f1a989bd1bef3e90e66437ed5e"
+   },
+   "classes:49247": {
+    "file": "fdaspl_epc/7b7e1e9acd63ab6b.json",
+    "sha256": "88b859caf89fa5c395ad0696b5f838985beed147c0f304cac67bd0c2c12c32fd"
+   },
+   "classes:3407": {
+    "file": "fdaspl_epc/1ae516d192743f9e.json",
+    "sha256": "438614cc923e9cdd1a953aecfa3f9899b3e192a1cb548a92048ab2101f704761"
+   },
+   "classes:4917": {
+    "file": "fdaspl_epc/41ea81dc369c38cf.json",
+    "sha256": "fe59425bfef5fe7abe61ad44e20296f477455847c998d41640160dcc4a7e5316"
+   },
+   "classes:28004": {
+    "file": "fdaspl_epc/fba6cd2b61cb4b13.json",
+    "sha256": "fd059dc35d4cd1fbe4a8b24a54a5288494a2b6edc22095e831b3bb3b3f326d89"
+   },
+   "classes:35829": {
+    "file": "fdaspl_epc/d8fdf4b310e08a5f.json",
+    "sha256": "b6757f16c8d109d9fc7a51473d34c268257dbddb8b89562a12cc01b0ff07e940"
+   },
+   "classes:1488564": {
+    "file": "fdaspl_epc/2dabb8b826ef1748.json",
+    "sha256": "6a515957494c1cb4db048a6836770ef7db85da45233412013c75355615d9f86a"
+   },
+   "classes:1545653": {
+    "file": "fdaspl_epc/023a183758caa8c9.json",
+    "sha256": "3a218cb730bd13c728d54d4f6ff2f3f003a419f963837b6b33a91253d7c663ee"
+   },
+   "classes:1649480": {
+    "file": "fdaspl_epc/0ae27466eb222c2e.json",
+    "sha256": "d730422c50e1e44eb21f44be66017174cf80c9ec1125af1a7d3fe98ad591fe93"
+   },
+   "classes:5470": {
+    "file": "fdaspl_epc/e18debc5c1701172.json",
+    "sha256": "397103ef6a0785ef03421aa772bb3b4bd40d9e05ca9290cc5bd9dccc5f5a1f85"
+   },
+   "classes:6809": {
+    "file": "fdaspl_epc/931ca2e557a0b1b5.json",
+    "sha256": "d1310c9869feb8de96872f8b1296ff5ec7df112d6505b75585411e65fe0dea9a"
+   },
+   "classes:1605101": {
+    "file": "fdaspl_epc/b9bc19b377c5d4fb.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+   },
+   "classes:8591": {
+    "file": "fdaspl_epc/e22b3a9485481d6e.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+   },
+   "classes:5640": {
+    "file": "fdaspl_epc/358812a6efc544b6.json",
+    "sha256": "673eca90e4fd4da99c9f69831edccba7b62b2d584faa687bd8f6d92afadba765"
+   },
+   "classes:7258": {
+    "file": "fdaspl_epc/94d7c0fbb05809d6.json",
+    "sha256": "e7449c067c030281858bfc4dbea928e632fd11b0b74fff8db22630bfbcc6987a"
+   },
+   "classes:140587": {
+    "file": "fdaspl_epc/5d524fa1bbd4d101.json",
+    "sha256": "94015dd683e8db6ea5ec399e8843d22026242809f1609d3ddd59381bfb007200"
+   },
+   "classes:21212": {
+    "file": "fdaspl_epc/d82c188133c7c81b.json",
+    "sha256": "8b5a3e6df223ef12ba00b7fc675dc156a035710871987232dbea2814e4f49014"
+   },
+   "classes:4053": {
+    "file": "fdaspl_epc/bf36bdbef8264eb9.json",
+    "sha256": "4b603f84a833d10036993265006fafce513f9dc05862e3f9ed76896d46e34954"
+   },
+   "classes:18631": {
+    "file": "fdaspl_epc/8b42cf7df48d36ad.json",
+    "sha256": "887ee3a4eb4e69a4ddad483bfd5e7c29a477a801d78b7ff0e85cfa98a527aa89"
+   },
+   "classes:6135": {
+    "file": "fdaspl_epc/2f41f8cf7ca05c54.json",
+    "sha256": "db04ceb59270e8aa41b69ee7db12eaba810faf8499693ba15299d0042dbbde36"
+   },
+   "classes:28031": {
+    "file": "fdaspl_epc/d653614c0e2ca5ce.json",
+    "sha256": "2f2014dd4c29156a896c3826223aa99c4dcf3a3138fd829e4077516151e2aff9"
+   },
+   "classes:4450": {
+    "file": "fdaspl_epc/54dbcbb08398a965.json",
+    "sha256": "0336223c47ff796af64772ac858cf738187042219a366c3bb36ef265abd5922d"
+   },
+   "classes:136411": {
+    "file": "fdaspl_epc/7bfeb54e90061e6d.json",
+    "sha256": "6ab1944a225be2ac3e53d52db2b8ee850497d21dc4d851dd30708b3433530c36"
+   },
+   "classes:358263": {
+    "file": "fdaspl_epc/cff93bc116aee117.json",
+    "sha256": "bf09d0310a61d31737fee03e33bfc215e40c4f2b6b33dbf40922c670a08a64bf"
+   },
+   "classes:7646": {
+    "file": "fdaspl_epc/f77ae422779f6fb7.json",
+    "sha256": "6a5f9df908557b2418b96786330f326f9c87e8708379c0ecc33e1154f85317f8"
+   },
+   "classes:161": {
+    "file": "fdaspl_epc/e5f84ffd7ffc5f12.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+   }
+  },
+  "openfda_label": {
+   "label:warfarin": {
+    "file": "openfda_label/43ca9295af1914fe.json",
+    "sha256": "2106b7e9a2969054940572e9ed87b2412a01e24b0decbe01cc63b7569142a93b"
+   },
+   "label:apixaban": {
+    "file": "openfda_label/5a222014c16c1ec8.json",
+    "sha256": "b2d2294594b30e4ffbab3a64aaad268180cb8fb25ce74078820bc42590580531"
+   },
+   "label:rivaroxaban": {
+    "file": "openfda_label/5b69415782e0635a.json",
+    "sha256": "f60bfb9d7e34b30eee46f73dce24406e3436d3612759a5fc7203cbc9492be58c"
+   },
+   "label:dabigatran": {
+    "file": "openfda_label/feffe11e73d62e23.json",
+    "sha256": "90edfd02204af671e980f66246cfd84cf8dd93ad71afe15ec97592a13ff2f8ce"
+   },
+   "label:enoxaparin": {
+    "file": "openfda_label/071765350f7fa3b1.json",
+    "sha256": "a30922f0902ab3c6de8c3e1566b75b24829e0da98dac1f2edbcf0756fbedf2e2"
+   },
+   "label:heparin": {
+    "file": "openfda_label/17e8e163133ad54a.json",
+    "sha256": "5e20e4b0142fef7e9462b35c35a336f73bc58cc373fcf46e72bf2349efc75df2"
+   },
+   "label:aspirin": {
+    "file": "openfda_label/9c062151aa0db8c8.json",
+    "sha256": "ff94ebe4cd6f3612ceec3c051d43c0f159009f2337095188aa3013d2fdba5831"
+   },
+   "label:clopidogrel": {
+    "file": "openfda_label/b9c2520e6ea7f058.json",
+    "sha256": "12b51c2c8f1f7189a29a231c45fed1edf51445e6856ea4ee692eaf8071f4e3ef"
+   },
+   "label:prasugrel": {
+    "file": "openfda_label/3ca74299e83f79d1.json",
+    "sha256": "e97968b84b8786075cedb691a34ae905709dd250f0c79f5323d257244e03c5b5"
+   },
+   "label:ticagrelor": {
+    "file": "openfda_label/66a4cabc2cde18f7.json",
+    "sha256": "35c2bd78648bba4b73bd8b9bf3358c865178614d3e52e33484ef40a253251e37"
+   },
+   "label:metoprolol": {
+    "file": "openfda_label/5069ee8680e0a075.json",
+    "sha256": "e3555ee3679cfbfd4017e839559563a0713f033b163c996984f4bf5f9fe998a1"
+   },
+   "label:carvedilol": {
+    "file": "openfda_label/a8ecc8d84de82d34.json",
+    "sha256": "6fd7021057be450c55d66b4b6e746932eb501d4ae65ae19dae3ce32139904b1e"
+   },
+   "label:bisoprolol": {
+    "file": "openfda_label/9fb6f061b2d01c3e.json",
+    "sha256": "e2c5081852b9db1d11717f364b0e2133750629e733199a6e02047c4f8bd689a3"
+   },
+   "label:atenolol": {
+    "file": "openfda_label/10ea54255a479d9c.json",
+    "sha256": "5bba8beb3b78f8bcb697b7c14421a8e72d35019129eb4f8e8aa56100507e5f37"
+   },
+   "label:propranolol": {
+    "file": "openfda_label/237ff2d8d69b731d.json",
+    "sha256": "4147fce45655ac8d15f3c118ab53c22309c00ce95c3712ce13c94967f44de9e6"
+   },
+   "label:labetalol": {
+    "file": "openfda_label/5b3abbde179f3b6a.json",
+    "sha256": "181b5dc6aa6d7a542acb8375283336a4ec305a7c55c06a4ddd3070d0e723b2fa"
+   },
+   "label:sotalol": {
+    "file": "openfda_label/42da45bd91368c7c.json",
+    "sha256": "b263fa4e58d1cc9adfa53fb72f1ff8f275318f2cfa9541edda4cc137b822ce2d"
+   },
+   "label:lisinopril": {
+    "file": "openfda_label/6d2fdea591dda7a5.json",
+    "sha256": "f71d0a4f39831b56f731a9f3c06fdfeeac8c298fefa1b4a58ff89f27033b2751"
+   },
+   "label:enalapril": {
+    "file": "openfda_label/5c21b2f4d91b3751.json",
+    "sha256": "1a3c5b7cad9c635ae542ef4b7ca10df075cd52c3ce2174695fb9cae1a1db0f3a"
+   },
+   "label:ramipril": {
+    "file": "openfda_label/c6d6314fb48fb7f5.json",
+    "sha256": "f7ff8ca0aebbd0121726da7e969e88fcca8f8c86f94212fe7535834719c9ec9d"
+   },
+   "label:losartan": {
+    "file": "openfda_label/20a9c6f7374535be.json",
+    "sha256": "276467e93174dc489c8969b8f69f17170972ab6461bba720e2efbae5f8ef7a91"
+   },
+   "label:valsartan": {
+    "file": "openfda_label/bc97b9f28fa2cd73.json",
+    "sha256": "ead7578439b7912bbeadf175780f9b49b35834c3b1e3c6a0ca0601b3f8dc92b1"
+   },
+   "label:sacubitril": {
+    "file": "openfda_label/44a8b286e9c733fa.json",
+    "sha256": "1faa88701c965d2a17a171dd96c5f549af8b4907eac071edba6febb4af8c48f3"
+   },
+   "label:amlodipine": {
+    "file": "openfda_label/d665998a41195851.json",
+    "sha256": "4fc7a0d4fe469683adccf71f7a53a0db7996197b514838b07d05950bd2d89697"
+   },
+   "label:diltiazem": {
+    "file": "openfda_label/91aaacdf85c592aa.json",
+    "sha256": "bef8d17c9f7ef43f61308a7db858bd161cf0ec1a88a7105704f72dfa54d0ea96"
+   },
+   "label:verapamil": {
+    "file": "openfda_label/70ec0eb0ef3a85ff.json",
+    "sha256": "2a4058da39ffdb92b11e3cc53bcfb1dc5c1c97b77a01bd70dc27ca7eb956c6c4"
+   },
+   "label:furosemide": {
+    "file": "openfda_label/c082e54d31dfc442.json",
+    "sha256": "25875798b4da2c3562e109ea7da694811afa1a6f48cc04a13eef85aa0ed8dd3c"
+   },
+   "label:torsemide": {
+    "file": "openfda_label/bc1d50bc1149a126.json",
+    "sha256": "44160aee85722053cb9bdad95774887497c0490130c9edc8f20086e99473fa0f"
+   },
+   "label:hydrochlorothiazide": {
+    "file": "openfda_label/8d9852ff22e7114b.json",
+    "sha256": "8ee38024418ed9e0efbb7404ad710d55d3c46847cdd7cadcfaa905b3c10aa5c8"
+   },
+   "label:chlorthalidone": {
+    "file": "openfda_label/7ce84a04ec306e48.json",
+    "sha256": "3d6c123c1bdc608fcd6fba338f53dc88e2ef239fecb85401ceae43b225a3d4ed"
+   },
+   "label:spironolactone": {
+    "file": "openfda_label/259e26dc15116468.json",
+    "sha256": "7a3335fbf27fd55bdbb82ba4e3bb498476943cb5af5f533c7ca4e9651a94b10f"
+   },
+   "label:eplerenone": {
+    "file": "openfda_label/77422456d2019452.json",
+    "sha256": "c68a03c4cbf31663f8512bb72130ca89b3b42470dab070e51d18498658f696fa"
+   },
+   "label:atorvastatin": {
+    "file": "openfda_label/02c237633d668b5d.json",
+    "sha256": "f31a2d4d62d28ef0cde4f6513411ad2b7681a4c87c0ef7b2fa06b7fa8bad6bea"
+   },
+   "label:simvastatin": {
+    "file": "openfda_label/8ea14aa19260ed59.json",
+    "sha256": "1a3b9e9aa1b348adf76bf3da575969c4fc9cabc38534cb41eb97e93a8a8f65d7"
+   },
+   "label:rosuvastatin": {
+    "file": "openfda_label/959500e5f7b4ce47.json",
+    "sha256": "3cc3295523e92a8f31681acedc96a95c2e58af73944517c2acba590f2c0c9bb0"
+   },
+   "label:pravastatin": {
+    "file": "openfda_label/813e3b4ff944d29d.json",
+    "sha256": "0b664a2a3c01d84b4fee741d2920fe98849bb2e1dfbe941077eaee5d4bc43654"
+   },
+   "label:ezetimibe": {
+    "file": "openfda_label/8804ce362b3334c2.json",
+    "sha256": "7e2a55d55dc634920cb7dd524f5644976b36800d268628544a09a6728faff39d"
+   },
+   "label:amiodarone": {
+    "file": "openfda_label/114ae9e0935556a3.json",
+    "sha256": "402a07fa387e845c68e8fb69b83b1e016cff709e945c0f463e75cbd06460de0d"
+   },
+   "label:dronedarone": {
+    "file": "openfda_label/bc441d091285b2d1.json",
+    "sha256": "669f8970e3c67b714fdfdb0ce6aa9955af8435d3a58cd8b93321868a8430c2c3"
+   },
+   "label:flecainide": {
+    "file": "openfda_label/eb468cc920e9699c.json",
+    "sha256": "b8dc0245c75a090457b29b57644b3b71eb689ef7d6cb36fdf27c5793c76174ac"
+   },
+   "label:dofetilide": {
+    "file": "openfda_label/52042d59d2bbbd00.json",
+    "sha256": "6204a0e761de5e0774cbb770bf00cbc93456f73148b6af497a4906e28750c82d"
+   },
+   "label:digoxin": {
+    "file": "openfda_label/5269b786a2e80362.json",
+    "sha256": "f43b55a71c967bfcdd0e24e14a2037742e9a9ddd346ffff79c5bbb577bfb489f"
+   },
+   "label:nitroglycerin": {
+    "file": "openfda_label/f6ef675030e0bed3.json",
+    "sha256": "fa34afb835694bf6fb18539e479a221acb0c9e8f98a9f6f4c40921aba37bf807"
+   },
+   "label:isosorbide mononitrate": {
+    "file": "openfda_label/6de6a73a4772aeb6.json",
+    "sha256": "b07b29348654a14dd0a482d08489b80e45ce98e90416c071a4b562bf284e7f90"
+   },
+   "label:ranolazine": {
+    "file": "openfda_label/d9967919cd78d03e.json",
+    "sha256": "e3e0504e823a298703d8bde6cb604e20ed5a016499ca60071e499d9694e17862"
+   },
+   "label:dapagliflozin": {
+    "file": "openfda_label/3c3c6e2d855b4907.json",
+    "sha256": "aa94e9949f6fffcdbc714b0620ecb7c686fac81e2c0ef8b055b58fdd85f53b42"
+   },
+   "label:empagliflozin": {
+    "file": "openfda_label/169ca8217aeda8a6.json",
+    "sha256": "c90221fa03adfbef92f2e98cbd7bfc10c48e17a19f702a99da7bea340d5ec654"
+   },
+   "label:ivabradine": {
+    "file": "openfda_label/a6c8edbc3681bac7.json",
+    "sha256": "cb2fd07597b9756e1400478cbb5be3f12007163d193d8508a7c571865fc50311"
+   },
+   "label:hydralazine": {
+    "file": "openfda_label/74479edc2660585f.json",
+    "sha256": "ebd4c8afe62635382e330575ec03560d69469b1814c9518f9bf86ead657cd08f"
+   },
+   "label:metformin": {
+    "file": "openfda_label/c1cd683e68781ea9.json",
+    "sha256": "b251a97ac2039305c66630000ac5f7b00a0c493d4cab0ab8ce9d8bd089573060"
+   },
+   "label:insulin isophane": {
+    "file": "openfda_label/753598c3e8754f9d.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+   },
+   "label:potassium chloride": {
+    "file": "openfda_label/03c042fab6ddbe54.json",
+    "sha256": "0406dfcfeadcac3a7e1b9b9d756f87151c4ce6758b2fe2181f826923ae128dec"
+   },
+   "label:ibuprofen": {
+    "file": "openfda_label/d4d4ef454741df25.json",
+    "sha256": "51bde8ef60486766259eeec2e38d16c0abeaaa1fc2170a11896922828aacc11c"
+   },
+   "label:naproxen": {
+    "file": "openfda_label/cf7970ad6da0c3ba.json",
+    "sha256": "7c7eef7f3d284edb4d79d474718b3fcf362765dcad38b96165804b1e9fb82452"
+   },
+   "label:celecoxib": {
+    "file": "openfda_label/6d89c3c33ea3ad45.json",
+    "sha256": "0482d75712ceaace160a523080e61604253cce4abf755d08f380af57a43d3bc1"
+   },
+   "label:clarithromycin": {
+    "file": "openfda_label/608a928ba6cdb256.json",
+    "sha256": "33010db6eecb1531e5ea5e1a1e9e39fb98731385e2001462e36ce53f167121fd"
+   },
+   "label:erythromycin": {
+    "file": "openfda_label/5660aeefc506db8f.json",
+    "sha256": "bd45efda9ec920612895a742d26772757d2d6a561bf89698812692b0ea16d152"
+   },
+   "label:azithromycin": {
+    "file": "openfda_label/fda5017abbfdfcba.json",
+    "sha256": "a73d256220b64b80e74ef0ad24eb7d86c944adcc2b0bc5c0ffb8065839097edb"
+   },
+   "label:ketoconazole": {
+    "file": "openfda_label/efa6c2b2aee1a542.json",
+    "sha256": "8ae5bd4a9635aaf7255f853f7299b9f2f477a1fe61a550ced6d874cf0cd71b03"
+   },
+   "label:itraconazole": {
+    "file": "openfda_label/27c54b90c42509d7.json",
+    "sha256": "84204a1019f36c061a4b38c31cd956600a30a07d5e17a6dfd53d113ae6270edb"
+   },
+   "label:fluconazole": {
+    "file": "openfda_label/a1bbc6ccd117f733.json",
+    "sha256": "7fcc1bd5857ed0fc21607d4e10ef62a3df700cfe28919c64ac733d6b41708d3e"
+   },
+   "label:sildenafil": {
+    "file": "openfda_label/826a48b503372387.json",
+    "sha256": "be533ce001268918113482d93ecf2d1afcbc736ebcc768bc67e8eab47bdd6064"
+   },
+   "label:tadalafil": {
+    "file": "openfda_label/a0502f66d49b546e.json",
+    "sha256": "22b5562af3a65181d092a014038014c5c70d8870d14f8ad6417cbe20855b878b"
+   },
+   "label:omeprazole": {
+    "file": "openfda_label/729ea1894fd22a22.json",
+    "sha256": "720d93b644be5624b19694e1f33a9f6e8c3370fc1a2fd9ae11408293a9cfc286"
+   },
+   "label:acetaminophen": {
+    "file": "openfda_label/92420d66f5335da6.json",
+    "sha256": "9033a8931cceee31def9fc8418f4281a5c7c6a2657d1aa4d81ff3dcbdaaae112"
+   }
+  }
+ }
+}
