@@ -1,6 +1,6 @@
 <div align="center">
 
-# MediBridge AI — Local-First Cardiology Intake and Doctor Handoff
+# MediBridge AI - Local-First Cardiology Intake and Doctor Handoff
 
 **MediBridge AI is a local-first system of cooperating AI agents. It takes a cardiology patient from the front desk to a signed, audited visit record in these steps:**
 
